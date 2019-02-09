@@ -1,0 +1,1914 @@
+List of countries, territories and areas1
+Vaccination requirements and recommendations for international
+travellers, including yellow fever and malaria
+Introduction
+The information provided for each country includes the country’s stated requirements and recommendations for
+travellers regarding yellow fever vaccination2
+ and malaria prevention; a brief description on the malaria risk situation
+is provided where appropriate. The country’s stated requirements for other diseases are also mentioned, if any3
+.
+Country requirements are subject to change at any time. It is important that travellers ensure they know the
+requirements of the country to which they are travelling by checking with the relevant consulate or embassy. The
+latest updates received by WHO from countries can be found at: http://www.who.int/ith
+Yellow fever
+Vaccination
+Yellow fever vaccination is carried out for two different purposes:
+1. To prevent the international spread of the disease
+ Countries protect themselves from the risk of importing or further spreading the yellow fever virus by establishing
+entry requirements on yellow fever vaccination for travellers. The countries that require proof of vaccination are
+those where the disease may or may not occur and where the mosquito vector and potential non-human primate
+hosts of yellow fever are present. Any importation of the virus into such countries by infected travellers could result
+in its propagation and establishment, leading to a permanent risk of infection for the human population. Proof of
+vaccination is often required for travellers arriving from countries with risk of yellow fever transmission and
+sometimes for travellers in transit through such countries.
+A meeting of yellow fever experts proposed, in 2010, that under 12 hours of airport transit in an area at risk of
+yellow fever poses an almost non-existent risk of yellow fever and therefore that a proof of vaccination might not
+be necessary. This information is provided to WHO Member States, but travellers are recommended to consult
+individual country requirements by contacting the embassy of each country they intend to visit. It should be noted
+that some countries require proof of vaccination from all travellers.
+Countries requiring yellow fever vaccination for entry do so in accordance with the International Health
+Regulations. Yellow fever is currently the only disease for which proof of vaccination may be required for travellers
+as a condition of entry to a State Party under Annex 7 of the International Health Regulations (IHR). An important
+change in May 2014 was the adoption by the World Health Assembly of an updated Annex 7, extending the validity
+of a certificate of vaccination against yellow fever from 10 years to life; this will come into force from 11th July
+2016.
+The fact that a country has no requirement for yellow fever vaccination does not imply that there is no risk
+of yellow fever transmission.
+
+1 In this publication, the terms “country” and “countries” cover countries, territories and areas.
+2 WHO publishes these requirements for informational purposes only; this publication does not constitute an
+endorsement or confirmation that such requirements are in accordance with the provisions of the International Health
+Regulations.
+3 The requirements for vaccination of infants over 6 months of age by some countries are not in accordance with
+WHO’s advice (Chapter 6). Travellers should, however, be informed that the requirement exists for entry into the
+countries concerned. When available, the date of the most recent update or confirmation is indicated in parentheses in
+the country list. If no date is indicated, the most recent update or confirmation was provided before 2013.
+2. To protect individual travellers who may be exposed to yellow fever infection
+The risk of yellow fever transmission depends on the presence of the virus in the country in humans, mosquitoes or
+animals. As yellow fever is frequently fatal for those who have not been vaccinated, vaccination is recommended
+for all travellers (with few exceptions, Chapter 6) visiting areas where there is a risk of yellow fever transmission.
+Annex 1 in the International Travel and Health publication provides a summary list of countries with risk of yellow
+fever transmission in whole or in part as defined by WHO as well as a list of countries that require proof of yellow
+fever vaccination as a condition for entry.
+WHO determines those areas where “a risk of yellow fever transmission is present” on the basis of the diagnosis of
+cases of yellow fever in humans and/or animals, the results of yellow fever sero-surveys and the presence of vectors
+and animal reservoirs. The scientific and technical advisory group on geographical yellow fever risk mapping
+(GRYF) was established in 2015 to maintain up-to-date yellow fever risk mapping and to provide guidance on
+yellow fever vaccination for travellers in ways that facilitate international travel, see further information from
+http://www.who.int/ith/yellow-fever-risk-mapping/en/
+Decisions regarding the use of yellow fever vaccine for travellers must weigh several factors, including the risk of
+travel-associated yellow fever virus disease, country requirements, and the potential for serious adverse events
+following yellow fever vaccination (Chapter 6).
+The table below summarizes WHO’s revised recommendations for yellow fever vaccination for travellers.
+Yellow fever vaccination category Rationale for recommendation
+Recommended Yellow fever vaccination is recommended for all travellers ≥ 9 months old in areas where there
+is evidence of persistent or periodic yellow fever virus transmission.
+Generally not recommended Yellow fever vaccination is generally not recommended in areas where there is low potential
+for yellow fever virus exposure (no human yellow fever cases ever reported and evidence to
+suggest only low levels of yellow fever virus transmission in the past). However, vaccination
+might be considered for a small subset of travellers to these areas who are at increased risk of
+exposure to mosquitoes or unable to avoid mosquito bites. When considering vaccination, any
+traveller must take into account the risk of being infected with yellow fever virus, country
+entry requirements, as well as individual risk factors (e.g. age, immune status) for serious
+vaccine-associated adverse events.
+Polio
+On 5 May 2014 the Director-General declared the international spread of wild poliovirus in 2014 to be a public
+health emergency of international concern (PHEIC) under the International Health Regulations, and issued
+temporary recommendations to reduce the international spread of wild poliovirus. Recommendations concerning
+international travellers coming from affected countries are below.
+For States currently exporting wild poliovirus (WPV) or circulating vaccine-derived poliovirus (cVDPV), it is
+recommended that:
+• All residents and long-term visitors (i.e. > 4 weeks) of all ages receive a dose of oral poliovirus vaccine
+(OPV) or inactivated poliovirus vaccine (IPV) between 4 weeks and 12 months prior to international travel.
+• International travellers undertaking urgent travel (i.e. within 4 weeks) who have not received a dose of OPV
+or IPV in the previous 4 weeks to 12 months, receive a dose of polio vaccine at least by the time of departure;
+this will still provide benefit, particularly for frequent travellers.
+• Travellers are provided with an international certificate of vaccination or prophylaxis in the form specified in
+Annex 6 of the IHR, to record their polio vaccination and serve as proof of vaccination.
+• The international travel of any resident lacking documentation of appropriate polio vaccination is restricted at
+the point of departure. This applies to international travellers from all points of departure, irrespective of
+means of conveyance (e.g. road, air, sea).
+For States affected by WPV or cVDPV but not currently exporting, it is recommended that:
+• Residents and long-term visitors receive a dose of OPV or IPV 4 weeks to 12 months prior to international
+travel, or, for those undertaking urgent travel (i.e. within 4 weeks), a dose at least by the time of departure.
+• Travellers who receive such vaccination have access to an appropriate document to record their polio
+vaccination status.
+Updates on currently endemic and affected States, whether exporting the disease or not, can be found at:
+http://www.polioeradication.org (“key countries” page).
+Some individual polio-free countries also require proof of polio vaccination for a visa or entry into their territory. It is
+important that travellers ensure they know the requirements of the country to which they are travelling by checking
+with the relevant consulate.
+Malaria
+General information about malaria, its geographical distribution and details of preventive measures are included in
+Chapter 7. Protective measures against mosquito bites are described in Chapter 3. Specific information for each
+country is provided in this section, including epidemiological details for all countries with malarious areas
+(geographical and seasonal distribution, altitude, predominant species, reported resistance). The recommended
+prevention is also indicated. For each country, recommended prevention is decided on the basis of the following
+factors: the risk of contracting malaria; the prevailing species of malaria parasites in the area; the level and spread of
+drug resistance reported from the country; and the possible risk of serious side-effects resulting from the use of the
+various prophylactic drugs. Where Plasmodium falciparum and P. vivax both occur, prevention of falciparum malaria
+takes priority. Unless the malaria risk is defined as due “exclusively” to a certain species (P. falciparum or P. vivax),
+travellers may be at risk of any of the parasite species, including mixed infections. P. falciparum resistance to
+chloroquine and sulfadoxine–pyrimethamine is at present nearly universal and is no longer specifically mentioned in
+the country list below; these two medications currently have no role in the prevention or treatment of falciparum
+malaria in travellers.
+The letters A, B, C and D refer to the type of prevention based on the table below.
+ Malaria risk Type of prevention
+Type A Very limited risk of malaria Mosquito bite prevention only
+ transmission
+Type B Risk of P. vivax malaria only Mosquito bite prevention plus
+ chloroquine chemoprophylaxisa
+
+Type C Risk of P. falciparum Mosquito bite prevention plus
+ malaria, in combination with atovaquone–proguanil or doxycycline
+ reported chloroquine and or mefloquine chemoprophylaxis
+ sulfadoxine–pyrimethamine resistance (select according to reported side-effects and contraindications)a
+Type D Risk of P. falciparum Mosquito bite prevention plus
+ malaria in combination atovaquone–proguanil or doxycycline
+ with reported multidrug or mefloquine chemoprophylaxis (select
+ resistance according to reported drug resistance pattern,
+ side-effects and contraindications) a,b
+a
+ Alternatively, for travel to rural areas with low risk of malaria infection, mosquito bite prevention can be combined with stand-by emergency
+treatment (SBET).
+b In certain areas with multidrug-resistant malaria, mefloquine chemoprophylaxis is no longer recommended. At present these areas include
+Cambodia, south-eastern Myanmar and Thailand.
+Other diseases
+Information on the main infectious disease threats for travellers, their geographical distribution, and corresponding
+precautions are provided in Chapter 5. Chapter 6 provides information on vaccine-preventable diseases.
+AFGHANISTAN
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers arriving from countries with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Malaria risk – P. falciparum and P. vivax – exists from May to November inclusive below 2000 m.
+Recommended prevention in risk areas: C
+ALBANIA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+ALGERIA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk is limited. Small foci of local transmission (P. vivax) have previously been reported in the six southern
+and south-eastern wilayas (Adrar, El Oued, Ghardaia, Illizi, Ouargla, Tamanrasset), with 59 local cases of P.
+falciparum and P. vivax transmission reported in 2012 in areas under the influence of trans-Saharan migration.
+Recommended prevention in risk areas: none
+AMERICAN SAMOA
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+ANDORRA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+ANGOLA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+ANGUILLA
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+ANTIGUA AND BARBUDA
+Yellow fever (2014)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+ARGENTINA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over going to Corrientes and Misiones provinces.
+Generally not recommended for travellers going to Formosa Province and designated areas of Chaco, Jujuy and Salta
+provinces.
+Not recommended for travellers whose itineraries are limited to areas and provinces not listed above.
+Malaria (2016)
+Malaria risk is exclusively due to P. vivax and is very low, being limited to the departments of Oran and San Martin in
+Salta Province in the north of the country, and to a lesser extent Corrientes and Misiones provinces. There is no risk in
+other areas of the country. No local cases have been reported during the past 5 years in any part of the country.
+Recommended prevention in risk areas: A
+ARMENIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+ASCENCION
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+AUSTRALIA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission (except Galápagos Islands in Ecuador, the island of Tobago; limited
+to Misiones Province in Argentina) and for travellers having transited for more than 12 hours through an airport of a
+country with risk of yellow fever transmission (with the same exceptions as mentioned above).
+Yellow fever vaccine recommendation: no
+AUSTRIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+AZERBAIJAN
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due exclusively to P. vivax exists from June to October inclusive in lowland areas, mainly in the area
+between the Kura and Arax rivers. There is no malaria transmission in Baku city (the capital city). No locally acquired
+cases were reported in 2013.
+Recommended prevention in risk areas: A
+AZORES see PORTUGAL
+BAHAMAS
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission (except Guyana, Suriname, and Trinidad and Tobago) and for
+travellers having transited for more than 12 hours through an airport of a country with risk of yellow fever
+transmission (with the same exceptions mentioned above).
+Yellow fever vaccine recommendation: no
+BAHRAIN
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Other requirement(s) (2016)
+All travellers coming from polio-endemic countries must have proof of polio vaccination.
+BANGLADESH
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Malaria risk exists throughout the year, but transmission occurs only in rural areas, in 13 of 64 districts. The risk is
+high in Chittagong Hill Tract districts (Bandarban, Rangamati and Khagrachari), Chittagong district and Cox Bazaar
+district. Low risk exists in the districts of Hobigonj, Kurigram, Moulvibazar, Mymensingh, Netrakona, Sherpur,
+Sunamgonj and Sylhet. Most parts of the country, including Dhaka City, have no risk of malaria.
+Recommended prevention in risk areas: C
+BARBADOS
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission (except Guyana and Trinidad and Tobago) and for travellers having
+transited for more than 12 hours through an airport of a country with risk of yellow fever transmission (with the same
+exceptions mentioned above).
+Yellow fever vaccine recommendation: no
+BELARUS
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+BELGIUM
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+BELIZE
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmissionand for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due predominantly to P. vivax exists in some areas of Stan Creek and is negligible elsewhere.
+Recommended prevention in risk areas: A
+Other requirement(s) (2016)
+All travellers coming from polio-endemic countries as well as Belizeans or persons living in Belize travelling to
+countries where polio cases have been confirmed must have proof of polio vaccination.
+BENIN
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+BERMUDA
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+BHUTAN
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers arriving from countries with risk
+of yellow fever transmission and for travellers having transited through an airport of a country with risk of yellow fever
+transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Malaria risk exists throughout the year in the southern belt of the country comprising seven districts: Chukha, Dagana,
+Pemagatshel, Samdrup Jongkhar, Samtse, Sarpang, and Zhemgang. No transmission occurs in the four following
+districts: Bumthang, Gasa, Paro, and Thimphu. Seasonal transmission during the rainy summer months occurs in focal
+areas the rest of the country.
+Recommended prevention in risk areas and seasons: C
+BOLIVIA (PLURINATIONAL STATE OF)
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission (with the addition of Sao Tome and Principe, Rwanda, Somalia,
+United Republic of Tanzania, Zambia and certain areas of Eritrea in Africa) and for travellers having transited for
+more than 12 hours through an airport of a country with risk of yellow fever transmission (with the same additions
+mentioned above).
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over travelling to the following area east of the Andes at altitudes
+below 2300 m: the entire departments of Beni, Pando and Santa Cruz, and designated areas of the departments of
+Chuquisaca, Cochabamba, La Paz and Tarija.
+Not recommended for travellers whose itineraries are limited to areas at altitudes above 2300 m and all areas not listed
+above, including the cities of La Paz and Sucre.
+Malaria (2016)
+Malaria risk due predominantly (94%) to P. vivax exists throughout the year in the whole country below 2500 m. P.
+falciparum exists in Santa Cruz and in the northern departments of Beni and Pando, especially in the localities of
+Guayaramerín and Riberalta.
+Recommended prevention in risk areas: B; in Beni, Pando and Santa Cruz: C
+BONAIRE
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 6 months of age arriving
+from countries with risk of yellow fever transmission. This requirement applies only to travellers going to Bonaire,
+Saba or Sint Eustatius.
+Yellow fever vaccine recommendation: no
+BOSNIA AND HERZEGOVINA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Other requirement(s) (2016)
+For departing travellers from the Federation of Bosnia and Herzegovina (BiH): cholera, meningococcal. For departing
+travellers from the Brcko District of BiH: meningococcal meningitis (for pilgrims to Mekka), selective vaccines for
+influenza, acute viral hepatitis B. No requirements for departing travellers from Republic of Srpska.
+BOTSWANA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+or having passed through countries with risk of yellow fever transmission and for travellers having transited through
+an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists from November to May/June in the northern parts of the
+country: Bobirwa, Boteti, Chobe, Ngamiland, Okavango, Tutume districts/sub-districts.
+Recommended prevention in risk areas: C
+BRAZIL
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: yes
+Recommended for travellers aged 9 months or over going to the states of Acre, Amapá, Amazonas, Distrito Federal
+(including the capital city of Brasília), Goiás, Maranhão, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Pará,
+Rondônia, Roraima and Tocantins, and designated areas of the following states: Bahia, Paraná, Piauí, Rio Grande do
+Sul, Santa Catarina and São Paulo. Vaccination is also recommended for travellers visiting Iguazu Falls.
+Not recommended for travellers whose itineraries are limited to areas not listed above, including the cities of
+Fortaleza, Recife, Rio de Janeiro, Salvador and São Paulo.
+Malaria (2015)
+In the states outside the administrative region of Amazonas, the risk of malaria transmission is negligible or nonexistent. Malaria risk – P. vivax (84%), P. falciparum (15%), mixed infections (1%) – exists in most forested areas
+below 900 m within the nine states of the Amazon region (Acre, Amapá, Amazonas, Maranhão (western part), Mato
+Grosso (northern part), Pará (except Belém City), Rondônia, Roraima and Tocantins (western part)). Transmission
+intensity varies from one municipality to another, and is higher in jungle mining areas, in agricultural settlements, in
+indigenous areas and in some peripheral urban areas of Cruzeiro do Sul, Manaus and Pôrto Velho. Malaria also occurs
+on the periphery of large cities such as Boa Vista, Macapá, Maraba, Rio Branco and Santarém.
+Recommended prevention in risk areas: C
+BRITISH VIRGIN ISLANDS
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+BRUNEI DARUSSALAM
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Human P. knowlesi infection reported.
+Recommended prevention: A
+Other requirement(s) (2016)
+Polio vaccination for travellers from polio affected countries (polio-exporting countries).
+BULGARIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+BURKINA FASO
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited through an airport of a
+country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+BURUNDI
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+CABO VERDE
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Limited malaria risk due predominantly to P. falciparum exists from August to November inclusive in Santiago Island
+and in Boa Vista Island
+Recommended prevention in risk areas: A
+CAMBODIA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due to P. falciparum and P. vivax exists throughout the year in forested rural areas. Phnom Penh and
+areas close to Tonle Sap (Siem Reap) are not at risk. Risk within the tourist area surrounding Angkor Wat is
+negligible. P. falciparum resistance to artesunate, mefloquine, lumefantrine and piperaquine has been reported in
+western Cambodia and extending to the centre of the country. P. vivax resistance to chloroquine has been reported in
+eastern Cambodia.
+Recommended prevention in risk areas: D
+CAMEROON
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+CANADA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+CANARY ISLANDS see SPAIN
+CAYMAN ISLANDS
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+CENTRAL AFRICAN REPUBLIC
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+CHAD
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers arriving from countries with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over going to areas south of the Sahara Desert.
+Not recommended for travellers whose itineraries are limited to areas within the Sahara Desert.
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+CHILE
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+CHINA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission. This requirement does not apply to travellers whose itineraries are limited to Hong
+Kong Special Administrative Region (SAR) and Macao SAR.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Currently, malaria cases imported from overseas constitute over 98% of the cases reported in China. Limited malaria
+transmission still exists in areas in Yunnan Province bordering Myanmar and very few areas in Tibet. Indigenous
+cases of P. falciparum are reported only in Yunnan Province, thus there exists a risk of spreading of antimalarial drug
+	resistance.
+Recommended prevention in risk areas: A, for non-border areas in Yunnan; D, for border areas in Yunnan
+CHRISTMAS ISLAND
+(Indian Ocean)
+Yellow fever:
+Same requirements as mainland Australia.
+Yellow fever vaccine recommendation: no
+COLOMBIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccination recommendation: yes
+Generally not recommended for travellers to the cities of Barranquilla, Cali, Cartagena and Medellín.
+Not recommended for travellers whose itineraries are limited to all areas above 2300 m, the department of San Andrès
+y Providencia and the capital city of Bogotá.
+Malaria (2016)
+Malaria risk is high in some municipalities of the departments of Antioquia (Apartadó, Turbo, Neococli, San Juan de
+Urabá, Arboletes, Cáceres, El Bagre, Tarazá, Zaragoza, Segovia Nechi, Caucasia, Remedios and Mutatá), Bolivar
+(San Pablo, Tiquisio, Talaigua Nuevo, Cantagallo y Norosí), Cauca (Guapi, Timbiquí and López de Micay), Chocó
+(all municipalities), Cordoba (the municipalities of Tierralta, Puerto Libertador, Valencia and Monteliebano), and
+Nariño (Tumaco, Barbacoas, Roberto Payan, Mosquera, El Charco, Magui Payan, Santinga, Pizarro, Santa Bárbara de
+Iscuandé). A lesser risk exists in some municipalities of Amazonas, Caqueta, Guaviare, Guainia, Meta, Putumayo,
+Vaupes, and Vichada. Chloroquine-resistant P. falciparum is present.
+Recommended prevention in all risk areas: C
+COMOROS
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+CONGO
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+COOK ISLANDS
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+COSTA RICA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission (with the exception of Burundi, Chad, Congo, Côte d’Ivoire,
+Ethiopia, Guinea-Bissau, Equatorial Guinea, Kenya, Mali, Mauritania, Niger, Central African Republic, Rwanda,
+Senegal, South Sudan, Togo and Uganda in Africa; and Argentina, Guyana, Panama, Paraguay, Suriname, and
+Trinidad and Tobago in South America) and for travellers having transited for more than 12 hours through an airport
+of a country with risk of yellow fever transmission (with the same exceptions mentioned above).
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk was historically due almost exclusively to P. vivax. Negligible or no risk of malaria transmission exists in
+the country, except for very low risk in the canton of Matina, Limon Province.
+Recommended prevention in risk areas: A
+CÔTE D’IVOIRE
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+CROATIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+CUBA
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+CURAÇAO
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 6 months of age arriving
+from countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+CYPRUS
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+CZECH REPUBLIC
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+DEMOCRATIC PEOPLE’S REPUBLIC OF KOREA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria
+Limited malaria risk due exclusively to P. vivax exists in some southern areas.
+Recommended prevention in risk areas: A
+DEMOCRATIC REPUBLIC OF THE CONGO
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over.
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+DENMARK
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+DJIBOUTI
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+DOMINICA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+DOMINICAN REPUBLIC
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due exclusively to P. falciparum exists throughout the year, especially in the western provinces of
+Dajabón, Elias Pina and San Juan. Risk in other areas is low to negligible. There is no evidence of P. falciparum
+resistance to any antimalarial drug.
+Recommended prevention in risk areas: B
+ECUADOR
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over going to the following provinces east of the Andes at altitudes
+below 2300 m: Morona-Santiago, Napo, Orellana, Pastaza, Sucumbios and Zamora-Chinchipe.
+Generally not recommended for travellers whose itineraries are limited to the following provinces west of the Andes
+including at altitudes below 2300 m: Esmeraldas, Guayas, Los Rios, Santa Helena, Santo Domingo de los Tsachilas
+and designated areas of Azuay, Bolivar, Canar, Carchi, Chimborazo, Cotopaxi, El Oro, Imbabura, Loja, Pichincha and
+Tungurahua.
+Not recommended for travellers whose itineraries are limited to all areas above 2300 m altitude, the cities of
+Guayaquil and Quito, and the Galápagos Islands.
+Malaria (2016)
+Malaria risk – P. vivax (86%), P. falciparum (14%) – exists throughout the year below 1500 m, with moderate risk in
+coastal provinces. Malaria risk due to P. falciparum is higher in Esmeraldas Province. There is no risk in Guayaquil,
+Quito and other urban areas of the inter-Andean region.
+Recommended prevention in risk areas: C
+EGYPT
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission (with the addition of Somalia, Rwanda, Zambia and Tanzania in
+Africa and with the exception of Bolivia, Galapagos Islands and Tobago in South America) and for travellers having
+transited for more than 12 hours through an airport of a country with risk of yellow fever transmission (with the same
+additions and exceptions mentioned above). In the absence of a vaccination certificate, the individual will be detained
+in quarantine for up to 6 days of departure from an area at risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Very limited P. falciparum and P. vivax malaria risk may exist from June to October inclusive in El Faiyûm
+governorate (no indigenous cases reported since 1998).
+Recommended prevention: none
+Other requirement(s) (2016)
+Proof of receipt of a dose of oral polio vaccine (OPV) or inactivated poliovirus vaccine (IPV), within the previous 12
+months and at least 4 weeks before departure, is required for travellers arriving from polio-endemic countries
+(Afghanistan, Pakistan) to apply for an entry visa.
+EL SALVADOR
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Very low malaria risk due almost exclusively to P. vivax exists in rural areas prone to migration from Central American
+countries. Sporadic P. vivax malaria cases are reported from specific parts of the country.
+Recommended prevention in risk areas: A
+EQUATORIAL GUINEA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 6 months of age arriving
+from countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+ERITREA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: in general, no
+Generally not recommended for travellers going to the following states: Anseba, Debub, Gash Barka, Mae Kel and
+Semenawi Keih Bahri.
+Not recommended for all other areas not listed above, including the islands of the Dahlak Archipelagos.
+Malaria (2015)
+Malaria risk – P. falciparum and P. vivax – exists throughout the year in the whole country below 2200 m. There is no
+risk in Asmara.
+Recommended prevention in risk areas: C
+ESTONIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+ETHIOPIA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over, except as mentioned below.
+Generally not recommended for travellers whose itineraries are limited to the Afar and Somali provinces.
+Malaria (2016)
+Malaria risk – approximately 60% P. falciparum, 40% P. vivax – exists throughout the year in the whole country
+below 2000 m. P. vivax resistance to chloroquine reported. There is no malaria risk in Addis Ababa.
+Recommended prevention in risk areas: C
+FALKLAND ISLANDS (MALVINAS)
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+FAROE ISLANDS
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+FIJI
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+FINLAND
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+FRANCE
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+FRENCH GUIANA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2013)
+Malaria risk – P. falciparum (45%), P. vivax (55%) – is high throughout the year in nine municipalities of the territory
+bordering Brazil (Oiapoque river valley) and Suriname (Maroni river valley). In the other 13 municipalities,
+transmission risk is low or negligible. Multidrug-resistant P. falciparum reported in areas influenced by Brazilian
+migration.
+Recommended prevention in risk areas: C
+FRENCH POLYNESIA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+GABON
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+GALAPAGOS ISLANDS see ECUADOR
+GAMBIA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+Other requirements (2013)
+Meningococcal meningitis vaccination
+GEORGIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Limited malaria risk due exclusively to P. vivax may exist locally from June to October inclusive in the eastern part of
+the country bordering Azerbaijan. No locally acquired cases were reported in 2013.
+Recommended prevention in risk areas: A
+Other requirement(s) (2016)
+Travellers coming from countries and territories with risk of polio transmission who are not vaccinated, or who are not
+able to present the vaccination certificate, are offered to receive oral polio vaccine at the border.
+GERMANY
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+GHANA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+
+GIBRALTAR
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+GREECE
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Very limited malaria risk (P. vivax only) may exist from May to October in certain agricultural areas with large
+migrant populations. No locally acquired malaria cases were recorded since 2014.
+Recommended prevention in agricultural risk areas: A
+GREENLAND
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+GRENADA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+GUADELOUPE
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+GUAM
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+GUATEMALA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due predominantly to P. vivax exists throughout the year below 1500 m; risk due to P. falciparum is
+limited to the municipality of Masagua in the department of Escuintla. The risk of malaria is highest in the
+departments of Escuintla (especially in the municipalities of Gomera, Masagua, Santa Lucia Cotzumalguapa and
+Tiquisate) and Alta Verapaz (in the municipalities of Telemán, Panzós and La Tinta). The risk is moderate in the
+departments of Suchitepéquez, Retalhuleu and Izabal. The risk is low in the rest of the departments (Chiquimula,
+Zacapa, Baja Verapaz, San Marcos, Peten, Jutiapa, Jalapa, El Progreso, Santa Rosa, Guatemala, Chimaltenango,
+Huehuetenango, Quiche).
+Recommended prevention: B
+GUINEA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+GUINEA-BISSAU
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age
+Yellow fever vaccine recommendation: yes
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+GUYANA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria (2015)
+Malaria risk – P. vivax (36%), P. falciparum (53%), mixed infections (11%) – is high throughout the year in all parts
+of the interior. Risk is highest in regions 1 and 7–9, and very low in regions 3–6. Sporadic cases of malaria have been
+reported from the densely populated coastal belt. Chloroquine-resistant P. falciparum reported.
+Recommended prevention in risk areas: C
+HAITI
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Malaria risk due exclusively to P. falciparum exists throughout the year in the whole country. No chloroquineresistant P. falciparum reported.
+Recommended prevention: B, or C if chloroquine is not available pre-travel
+HONDURAS
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission (with the exception of Central African Republic and South Sudan in
+Africa, and of Panama in South America) and for travellers having transited for more than 12 hours through an airport
+of a country with risk of yellow fever transmission (with the same exceptions mentioned above).
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due to P. vivax (79%), P. falciparum (20%) and mixed infections (~0.8%). P. vivax transmission risk is
+high in the departments of Colon and Gracias a Dios and moderate in Atlántida, El Paraiso, Olancho, and Yoro. P.
+falciparum transmission risk is high in Gracias a Dios, and a few cases are also reported in Colon, Olancho and Yoro.
+Recommended prevention in risk areas: B
+HUNGARY
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+ICELAND
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+INDIA
+Yellow fever (2014)
+Country requirement: anyone (except infants up to the age of 6 months) arriving by air or sea without a yellow fever
+vaccination certificate is detained in isolation for up to 6 days if that person (i) arrives within 6 days of departure from
+an area with risk of yellow fever transmission, or (ii) has been in such an area in transit (except those passengers and
+members of the crew who, while in transit through an airport situated in an area with risk of yellow fever
+transmission, remained within the airport premises during the period of their entire stay and the Health Officer
+agrees to such exemption), or (iii) arrives on a ship that started from or touched at any port in an area with risk of
+yellow fever transmission up to 30 days before its arrival in India, unless such a ship has been disinsected in
+accordance with the procedure laid down by WHO, or (iv) arrives on an aircraft that has been in an area with risk
+of yellow fever transmission and has not been disinsected in accordance with the Indian Aircraft Public Health
+Rules, 1954, or as recommended by WHO.
+Countries and areas regarded as having risk of yellow fever transmission are, in Africa: Angola, Benin, Burkina Faso,
+Burundi, Cameroon, Central African Republic, Chad, Congo, Côte dʼIvoire, Democratic Republic of the Congo,
+Equatorial Guinea, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Liberia, Mali, Mauritania,
+Niger, Nigeria, Rwanda, Senegal, Sierra Leone, Sudan, South Sudan, Togo and Uganda; and in America: Argentina,
+Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Panama, Paraguay, Peru, Suriname, Trinidad (Trinidad
+only), and Venezuela (Bolivarian Republic of).
+Note. When a case of yellow fever is reported from any country, that country is regarded by the Government of India
+as a country with risk of yellow fever transmission and is added to the above list.
+Yellow fever vaccine recommendations: no
+Malaria (2014)
+Malaria risk exists throughout the year in the whole country at altitudes below 2000 m, with overall 40–50% of cases
+due to P. falciparum and the remainder due to P. vivax. There is no transmission in parts of the states of Himachal
+Pradesh, Jammu and Kashmir, and Sikkim. Risk of falciparum malaria is relatively higher in the north-eastern states,
+in the Andaman and Nicobar Islands, Chhattisgarh, Gujarat, Jharkhand, Karnataka (with the exception of the city of
+Bangalore) Madhya Pradesh, Maharasthra (with the exception of the cities of Mumbai, Nagpur, Nasik and Pune),
+Orissa and West Bengal (with the exception of the city of Kolkata).
+Recommended prevention in risk areas: C
+Other requirement(s) (2014)
+Oral polio vaccination at least 4 weeks before departure for resident national travellers from polio-endemic countries
+(Afghanistan, Nigeria, Pakistan) and countries with poliovirus circulation following importation (Ethiopia, Kenya,
+Somalia, Syrian Arab Republic).
+INDONESIA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria
+Malaria risk exists throughout the year in most areas of the five eastern provinces of East Nusa Tenggara, Maluku,
+North Maluku, Papua and West Papua. In other parts of the country, there is malaria risk in some districts, except in
+Jakarta Municipality, in cities and urban areas, and in the areas of the main tourist resorts. P. vivax resistant to
+chloroquine reported. Human P. knowlesi infection reported in the province of Kalimantan.
+Recommended prevention in risk areas: C
+IRAN (ISLAMIC REPUBLIC OF)
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due to P. vivax and very limited risk due to P. falciparum exists from March to November inclusive in
+rural areas of the provinces of Hormozgan and Kerman (tropical part) and the southern part of Sistan and Baluchestan.
+Recommended prevention in risk areas: C
+Other requirement(s) (2016)
+International certification of receiving one dose of polio vaccine between 4 weeks and 12 months prior to travelling
+from infected or endemic countries.
+IRAQ
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Limited malaria risk − due exclusively to P. vivax – may exist from May to November inclusive in areas in the north
+below 1500 m (Duhok, Erbil and Sulaimaniya provinces). No indigenous cases reported since 2009.
+Recommended prevention in risk areas: none
+Other requirement(s) (2016)
+Oral polio vaccination for all travellers coming from polio-endemic areas and for travellers from Iraq to polio-endemic
+countries.
+IRELAND
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+ISRAEL
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+ITALY
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+JAMAICA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+JAPAN
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+JORDAN
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+KAZAKHSTAN
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers arriving from countries with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+KENYA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over, except as mentioned below.
+Generally not recommended for travellers whose itineraries are limited to the following areas: the entire North Eastern
+Province; the states of Kilifi, Kwale, Lamu, Malindi and Tanariver in Coastal Province; and the cities of Nairobi and
+Mombasa.
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country. Normally, there is
+little risk in the city of Nairobi and in the highlands (above 2500 m) of Central, Eastern, Nyanza, Rift Valley and
+Western provinces.
+Recommended prevention: C
+KIRIBATI
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+KOREA, REPUBLIC OF, see REPUBLIC OF KOREA
+KOREA, DEMOCRATIC PEOPLE’S REPUBLIC OF, see DEMOCRATIC PEOPLE’S REPUBLIC OF
+KOREA
+KUWAIT
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+KYRGYZSTAN
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria
+Malaria risk due exclusively to P. vivax exists from June to October inclusive in some southern and western parts of
+the country, mainly in areas bordering Tajikistan and Uzbekistan (Batken, Jalal-Abad and Osh regions) and in the
+outskirts of Bishkek. No locally acquired cases reported between 2011 and 2013.
+Recommended prevention in risk areas: A
+LAO PEOPLE’S DEMOCRATIC REPUBLIC
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers arriving from countries with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country except in Vientiane.
+Recommended prevention in risk areas: C
+LATVIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+LEBANON
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+LESOTHO
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+LIBERIA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age.
+Yellow fever vaccine recommendation: yes
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+LIBYA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Other requirement(s) (2015)
+Meningococcal meningitis vaccination. Polio vaccination within last 12 months and at least 4 weeks before departure
+for residents arriving from Afghanistan and Pakistan.
+LIECHTENSTEIN
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+LITHUANIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Other requirement(s) (2016)
+Oral polio vaccination for travellers arriving from countries still reporting polio.
+LUXEMBOURG
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+MADAGASCAR
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country, with the highest risk
+in coastal areas.
+Recommended prevention: C
+Other requirement(s) (2016)
+Proof of polio vaccination for travellers spending more than 28 days in the country.
+MADEIRA ISLANDS see PORTUGAL
+MALAWI
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+MALAYSIA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk exists only in limited foci in the deep hinterland of the states of Sabah and Sarawak and the central areas
+of Peninsular Malaysia. Urban, suburban and coastal areas are free from malaria. Human P. knowlesi infection
+reported. P. falciparum resistance to chloroquine reported.
+Recommended prevention in risk areas: C
+MALDIVES
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Other requirement(s) (2016)
+Proof of polio vaccination for persons travelling to and from countries exporting poliovirus as well as for Hajj and
+Umrah pilgrims.
+MALI
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over going to areas south of the Sahara Desert.
+Not recommended for travellers whose itineraries are limited to areas in the Sahara Desert.
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+MALTA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission. If indicated on epidemiological grounds, infants
+under 9 months of age are subject to isolation or surveillance if arriving from an area with risk of yellow fever
+transmission.
+Yellow fever vaccine recommendation: no
+MARSHALL ISLANDS
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+MARTINIQUE
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+MAURITANIA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over travelling to areas south of the Sahara Desert.
+Not recommended for travellers whose itineraries are limited to areas in the Sahara Desert.
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country, except in northern
+areas (Dakhlet-Nouadhibou and Tiris-Zemour). In Adrar and Inchiri there is malaria risk during the rainy season (from
+July to October inclusive).
+Recommended prevention in risk areas: C
+MAURITIUS
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+MAYOTTE
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year.
+Recommended prevention: C
+MEXICO
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due almost exclusively to P. vivax exists intermittently throughout the year in some rural areas that are
+not often visited by tourists. Low risk exists in some localities in Chiapas State (Costa). Localities with very low risk
+are situated in the states of Chihuahua, Durango, Nayarit, Quintana Roo and Sinaloa.
+Recommended prevention in moderate risk areas: A
+MICRONESIA (FEDERATED STATES OF)
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+MONACO
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+MONGOLIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+MONTENEGRO
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+MONTSERRAT
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+MOROCCO
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+MOZAMBIQUE
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission (with the exception of South Sudan and with the addition of Sao
+Tome and Principe, Somalia, and United Republic of Tanzania in Africa; with the exception of Argentina, French
+Guiana and Paraguay in South America) and for travellers having transited for more than 12 hours through an airport
+of a country with risk of yellow fever transmission (with the same exceptions and additions mentioned above).
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+MYANMAR
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission. Nationals and residents of Myanmar are required to possess
+certificates of vaccination on their departure to an area with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in remote rural, hilly and forested areas of
+the country as well as in some coastal areas in Rahkine State. There is no transmission in cities and urban areas. The
+central plains and the dry zone are generally free of malaria but some pockets of transmission still exist. Mefloquine
+resistance reported in Kayin State and the eastern part of Shan State. Emerging artemisinin resistance suspected in
+south-eastern Myanmar. P. vivax resistance to chloroquine reported. Human P. knowlesi infection reported.
+Recommended prevention in risk areas: C; in south-eastern Myanmar: D
+NAMIBIA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers arriving from countries with
+risk of yellow fever transmission. The countries, or parts of countries, included in the endemic zones in Africa and
+South America are regarded as areas with risk of yellow fever transmission. Travellers who are on scheduled flights
+that originated outside the countries with risk of yellow fever transmission but who have been in transit through these
+areas are not required to possess a vaccination certificate provided that they remained at the scheduled airport or in the
+adjacent town during transit. All travellers whose flights originated in countries with risk of yellow fever transmission
+or who have been in transit through these countries on unscheduled flights are required to possess a certificate. The
+certificate is not insisted upon in the case of children less than 1 year of age, but such infants may be subject to
+surveillance.
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists from November to June inclusive in the following regions:
+Ohangwena, Omaheke, Omusati, Oshana, Oshikoto and Otjozondjupa. Risk exists throughout the year along the
+Kunene river and in Caprivi and Kavango regions.
+Recommended prevention in risk areas: C
+NAURU
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+NEPAL
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. vivax exists throughout the year in rural areas of the 20 Terai districts bordering
+India, with occasional outbreaks of P. falciparum from July to October inclusive. Seasonal transmission of P. vivax
+takes place in 45 districts of the inner Terai and mid-hills.
+Recommended prevention in risk areas: C
+Other requirement(s) (2015)
+Polio vaccination
+NETHERLANDS
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+
+NEW CALEDONIA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Note. In the event of an epidemic threat to the territory, a specific vaccination certificate may be required.
+Yellow fever vaccine recommendation: no
+NEW ZEALAND
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+NICARAGUA
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Low malaria risk due predominantly to P. vivax (82%) exists throughout the year in a number of municipalities,
+mainly in Región Autónoma del Atlántico Norte, with sporadic transmission also reported in Boaca, Chinandega,
+Jinoteca, Léon and Matagalpa. Cases are reported from other municipalities in the central and western departments but
+the risk in these areas is considered to be very low or negligible.
+Recommended prevention in risk areas: B
+NIGER
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age and
+recommended for travellers departing Niger.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over travelling to areas south of the Sahara Desert.
+Not recommended for travellers whose itineraries are limited to areas in the Sahara Desert.
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+NIGERIA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+NIUE
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+NORFOLK ISLAND see AUSTRALIA
+
+NORTHERN MARIANA ISLANDS
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+NORWAY
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+OMAN
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited through an airport of a
+country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Sporadic transmission of P. falciparum and P. vivax may occur subsequent to international importations of parasites.
+In 2010, local outbreaks of P. falciparum and P. vivax were reported in Ash Sharqiyah North Governorate. Local
+cases were also reported in 2011 and 2012.
+Recommended prevention: none
+PAKISTAN
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk – P. vivax and P. falciparum – exists throughout the year in the whole country below 2000 m, especially
+in rural areas from July to December inclusive.
+Recommended prevention in risk areas: C
+Other requirement(s) (2016)
+Administration of mandatory oral polio vaccine (OPV) to all outgoing international travellers and incoming long-term
+visitors (i.e. > 4 weeks) of all ages, and an International Certificate of Vaccination as proof of vaccination.
+PALAU
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+PANAMA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccination recommendation: yes
+Recommended for all travellers aged 9 months or over travelling to all mainland areas east of the area surrounding the
+Canal (the entire comarcas of Emberá and Kuna Yala, the province of Darién and areas of the provinces of Colón and
+Panama that are east of the Canal).
+Not recommended for travellers whose itineraries are limited to areas west of the Canal, the city of Panama, the Canal
+area itself, and the Balboa Islands (Pearl Islands) and San Blas Islands.
+Malaria (2016)
+Malaria risk due predominantly to P. vivax (> 99%) exists throughout the year in provinces and comarcas along the
+Atlantic coast and the borders with Costa Rica and Colombia: Bocas del Toro, Chiriquí, Colón, Darién, Kuna Yala,
+Ngäbe Buglé, Panama and Veraguas. In Panama City, in the Canal Zone and in the other provinces there is no or
+negligible transmission risk.
+Recommended prevention in risk areas: B; in eastern endemic areas bordering Colombia: C
+PAPUA NEW GUINEA
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country below 1800 m. P.
+vivax resistant to chloroquine reported.
+Recommended prevention in risk areas: C
+PARAGUAY
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over, except as mentioned below.
+Generally not recommended for travellers whose itineraries are limited to the city of Asunción.
+Malaria (2016)
+Malaria risk due almost exclusively to P. vivax is moderate in certain municipalities of the departments of Alto Paraná
+and Caaguazú. In other departments there is no or negligible transmission risk.
+Recommended prevention in risk areas: A
+PERU
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over going to areas below 2300 m altitude in the regions of
+Amazonas, Loreto, Madre de Dios, San Martin, Ucayali, Puno, Cuzco, Junín, Pasco and Huánuco; and going to
+designated areas of the following regions: far-north of Apurimac, far-northern Huancavelica, far-north-eastern
+Ancash, eastern La Libertad, northern and eastern Cajamarca, northern and north-eastern Ayacucho, and eastern Piura.
+Generally not recommended for travellers whose itineraries are limited to the following areas west of the Andes:
+regions of Lambayeque and Tumbes and the designated areas of western Piura and south, west and central Cajamarca.
+Not recommended for travellers whose itineraries are limited to the following areas: all areas above 2300 m altitude,
+areas west of the Andes not listed above, the city of Cuzco, the capital city of Lima, Machu Picchu, and the Inca Trail.
+Malaria (2015)
+Malaria risk – P. vivax (84%), P. falciparum (16%) – exists throughout the year in rural areas at altitudes below 2000
+m. The 32 highest-risk districts are concentrated in the regions of Ayacucho, Cusco, Junin and Loreto. Ninety-nine
+percent of P. falciparum cases are reported from Loreto, which is situated in the Amazon and contains 19 of the
+highest-risk districts in the country. P. vivax resistance to chloroquine reported.
+Recommended prevention in risk areas: B in P. vivax risk areas; C in Loreto Department.
+PHILIPPINES
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2013)
+Malaria risk exists throughout the year in areas below 600 m, except in the 22 provinces of Aklan, Albay, Benguet,
+Biliran, Bohol, Camiguin, Capiz, Catanduanes, Cavite, Cebu, Guimaras, Iloilo, Northern Leyte, Southern Leyte,
+Marinduque, Masbate, Eastern Samar, Northern Samar, Western Samar, Siquijor, Sorsogon, Surigao Del Norte and
+metropolitan Manila. No risk is considered to exist in urban areas or in the plains. Human P. knowlesi infection reported
+in the province of Palawan.
+Recommended prevention in risk areas: C
+PITCAIRN ISLANDS
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+POLAND
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+PORTUGAL
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+PUERTO RICO
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+QATAR
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Other requirement(s) (2016)
+International certificate of polio vaccination as per the International Health Regulations (IHR, Annex 6) for all
+travellers arriving from polio-exporting countries.
+REPUBLIC OF KOREA
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria
+Limited malaria risk due exclusively to P. vivax exists mainly in the northern areas of Gangwon-do and Gyeonggi-do
+provinces and in Incheon City (towards the demilitarized zone or DMZ).
+Recommended prevention in risk areas: A
+REPUBLIC OF MOLDOVA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+REUNION
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+ROMANIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+RUSSIAN FEDERATION
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Very limited malaria risk due exclusively to P. vivax may exist in areas under influence of intense migration from
+southern countries of the Commonwealth of Independent States.
+Recommended prevention: none
+RWANDA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age coming from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: in general, no
+Generally not recommended for travellers to Rwanda
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+SAINT BARTHELEMY
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+SAINT HELENA
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SAINT KITTS AND NEVIS
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Other requirement(s) (2016)
+Oral polio vaccination for travellers arriving from polio-endemic countries as identified by WHO.
+SAINT LUCIA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+SAINT MARTIN
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+SAINT PIERRE AND MIQUELON
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SAINT VINCENT AND THE GRENADINES
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+SAMOA
+Yellow fever (2013)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+SAN MARINO
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SAO TOME AND PRINCIPE
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Generally not recommended for travellers to Sao Tome and Principe.
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+SAUDI ARABIA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+The country is in the pre-elimination phase of malaria. Local transmission reported only in villages on the border with
+Yemen (except in the high-altitude areas of Asir Province) due predominantly to P. falciparum, and mainly from
+September to January. The infection rate is reduced to less than 0.3 cases/100 000 inhabitants. No risk in the cities of
+Mecca and Medina.
+Recommended prevention in risk areas: C
+Other requirement(s) (2016)
+All travellers arriving for Hajj and Umrah areas should present a valid certificate of vaccination with the quadrivalent
+(ACYW135) vaccine against meningitis issued not less than 10 days and not more than 3 years prior to the traveller’s
+arrival in Saudi Arabia. All visitors travelling to Saudi Arabia from polio-endemic countries should have proof of
+polio vaccination at least 4 weeks prior to departure. All travellers will also receive 1 dose of OPV at the borders on
+arrival in Saudi Arabia regardless of age and vaccination status.
+SENEGAL
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited through an airport of a
+country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country. There is less risk
+from January to June inclusive in the central western regions.
+Recommended prevention: C
+SERBIA
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SEYCHELLES
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Other requirement(s) (2015)
+Polio vaccination for travellers arriving from countries with polio outbreaks.
+SIERRA LEONE
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for all travellers.
+Yellow fever vaccine recommendation: yes
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+SINGAPORE
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age who, within
+the preceding 6 days, have been in or have transited for more than 12 hours through an airport of a country with risk of
+yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Human P. knowlesi infection reported.
+Recommended prevention in P. knowlesi risk areas: A
+SINT MAARTEN
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 6 months of age arriving
+from countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+SLOVAKIA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SLOVENIA
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SOLOMON ISLANDS
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers arriving from countries with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year except in a few outlying eastern and
+southern islets. P. vivax resistance to chloroquine reported.
+Recommended prevention in risk areas: C
+SOMALIA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: in general, no
+Generally not recommended for travellers going to the following regions: Bakool, Banaadir, Bay, Gado, Galgadud,
+Hiran, Lower Juba, Middle Juba, Lower Shabelle and Middle Shabelle.
+Not recommended for all other areas not listed above.
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country. Risk is relatively low
+and seasonal in the north. It is higher in the central and southern parts of the country.
+Recommended prevention: C
+SOUTH AFRICA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the low-altitude areas of Mpumalanga
+Province (including the Kruger National Park), Limpopo Province and north-eastern KwaZulu-Natal. Risk is highest
+from October to May inclusive.
+Recommended prevention in risk areas: C
+SOUTH SUDAN
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: yes
+Malaria: Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+SPAIN
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SRI LANKA
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Limited malaria risk – P. vivax (88%), P. falciparum (12%) – exists throughout the year, except in the districts of
+Colombo, Galle, Gampaha, Kalutara, Matara and Nuwara Eliya. No locally acquired cases reported since October
+2012.
+Recommended prevention in risk areas: none
+Other requirement(s) (2016)
+Polio vaccination certificate for travellers arriving from polio-endemic and polio-infected countries.
+SUDAN
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission. A certificate may be required for travellers departing
+Sudan.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over travelling to areas south of the Sahara desert.
+Not recommended for travellers whose itineraries are limited to areas in the Sahara desert and the city of Khartoum.
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country. Risk is low and
+seasonal in the north; it is higher in the central and southern parts of the country. Malaria risk on the Red Sea coast is
+very limited.
+Recommended prevention: C
+SURINAME
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria (2016)
+Malaria risk – P. falciparum (40%), P. vivax (58%), mixed infections (2%) – has continued to decrease in recent
+years. Malaria occurs throughout the year in the interior of the country beyond the coastal savannah area, with highest
+risk mainly along the eastern border and in gold-mining areas. In Paramaribo city and the other seven coastal districts,
+transmission risk is low or negligible. Some decline in quinine sensitivity also reported.
+Recommended prevention in risk areas: C
+SWAZILAND
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers arriving from countries with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in all low veld areas (mainly Big Bend,
+Mhlume, Simunye and Tshaneni). Risk is highest from November to May inclusive.
+Recommended prevention in risk areas: C
+SWEDEN
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SWITZERLAND
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+SYRIAN ARAB REPUBLIC
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Very limited malaria risk due exclusively to P. vivax may exist from May to October inclusive in foci along the
+northern border, especially in rural areas of El Hasaka Governorate (no indigenous cases reported since 2005, but the
+reporting system has been disrupted since 2010).
+Recommended prevention: none
+Other requirement(s) (2015)
+Polio vaccination for travellers coming from Cameroon, Equatorial Guinea, Pakistan and for travellers from Syrian
+Arab Republic going to other countries.
+TAJIKISTAN
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. vivax exists from June to October inclusive, particularly in southern areas
+(Khatlon Region), and in some central (Dushanbe), western (Gorno-Badakhshan Autonomous Region) and northern
+(Leninabad Region) areas.
+Recommended prevention in P. vivax only risk areas: B; in southern risk areas near the border with Afghanistan: C
+TANZANIA, UNITED REPUBLIC OF, see UNITED REPUBLIC OF TANZANIA
+THAILAND
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2016)
+Malaria risk exists throughout the year in rural, especially forested and hilly, areas of the country, mainly towards the
+international borders, including the southernmost provinces. There is no risk in cities (e.g. Bangkok, Chiang Mai city,
+Pattaya), urban areas, Samui island and the main tourist resorts of Phuket island. However, there is a risk in some
+other areas and islands. P. falciparum resistant to mefloquine and to quinine reported from areas near the borders with
+Cambodia and Myanmar. Artemisinin resistance reported near the border with Myanmar. P. vivax resistance to
+chloroquine reported. Human P. knowlesi infection reported.
+Recommended prevention in risk areas: A; in areas near Cambodia and Myanmar borders: D
+THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+TIMOR-LESTE
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+TOGO
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age.
+Yellow fever vaccine recommendation: yes
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+TOKELAU
+Same requirements as New Zealand.
+TONGA
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+TRINIDAD AND TOBAGO
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited through an airport of a country with
+risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over travelling to densely forested areas on the island of Trinidad,.
+Not recommended for cruise ship passengers and aircraft passengers in transit or travelers whose itineraries are limited
+to the island of Tobago.
+TRISTAN DA CUNHA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 6 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited through an airport of a
+country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+TUNISIA
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+TURKS AND CAICOS
+Yellow fever (2015):
+Country requirement: no
+Yellow fever vaccine recommendation: no
+TURKEY
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Limited malaria risk due exclusively to P. vivax exists from May to October inclusive in Mardin Province. Sporadic
+cases were reported in 2014. There is no malaria risk in the main tourist areas in the west and south-west of the
+country.
+Recommended prevention in risk areas: A
+TURKMENISTAN
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+TUVALU
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+UGANDA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: yes
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+UKRAINE
+Yellow fever (2013)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+UNITED ARAB EMIRATES
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+UNITED KINGDOM (WITH CHANNEL ISLANDS AND ISLE OF MAN)
+Yellow fever (2015)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+UNITED REPUBLIC OF TANZANIA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: in general, no
+Generally not recommended for travellers to United Republic of Tanzania.
+Malaria (2013)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country below 1800 m.
+Recommended prevention in risk areas: C
+UNITED STATES OF AMERICA
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+UNITED STATES VIRGIN ISLANDS
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+URUGUAY
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: no
+UZBEKISTAN
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria
+Limited malaria risk due exclusively to P. vivax exists from June to October inclusive in some villages located in the
+southern and eastern parts of the country bordering Afghanistan, Kyrgyzstan and Tajikistan. No locally acquired cases
+reported between 2011 and 2013.
+Recommended prevention in risk areas: A
+VANUATU
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria
+Low to moderate malaria risk due predominantly to P. falciparum exists throughout the year in the whole country. P.
+vivax resistant to chloroquine reported.
+Recommended prevention: C
+VENEZUELA (BOLIVARIAN REPUBLIC OF)
+Yellow fever (2016)
+Country requirement: no
+Yellow fever vaccine recommendation: yes
+Recommended for all travellers aged 9 months or over, except as mentioned below.
+Generally not recommended for travellers whose itineraries are limited to the following areas: the entire states of
+Aragua, Carabobo, Miranda, Vargas and Yaracuy, and the Distrito Federal.
+Not recommended for travellers whose itineraries are limited to the following areas: all areas >2300 m in elevation in
+the states of Merida, Trujillo, and Tachira; the States of Falcon and Lara; Margarita Island; the capital city of Caracas;
+and the city of Valencia.
+Malaria (2016)
+Malaria risk due to P. vivax (75%) and P. falciparum (25%) is moderate to high throughout the year in some rural
+areas of Amazonas, Anzoátegui, Bolívar and Delta Amacuro states. There is low risk in Apure, Monagas, Sucre and
+Zulia. Risk of P. falciparum malaria is mostly restricted to municipalities in jungle areas of Amazonas (Alto Orinoco,
+Atabapo, Atures, Autana, Manapiare) and Bolívar (Angostura, Cedeño, El Callao, Gran Sabana, Heres, Piar, Raul
+Leoni, Rocio, Sifontes and Sucre).
+Recommended prevention in P. vivax risk areas: B; in P. falciparum risk areas: C
+VIET NAM
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria
+Malaria risk due predominantly to P. falciparum exists in the whole country, excluding urban centres, the Red River
+delta, the Mekong delta, and the coastal plain areas of central Viet Nam. High-risk areas are the highland areas below
+1500 m south of 18˚N, notably in the four central highlands provinces of Dak Lak, Dak Nong, Gia Lai and Kon Tum,
+in Binh Phuoc Province, and in the western parts of the coastal provinces of Khanh Hoa, Ninh Thuan, Quang Nam and
+Quang Tri. Resistance to mefloquine reported.
+Recommended prevention in risk areas: C
+WAKE ISLAND
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+WALLIS AND FUTUNA
+Yellow fever
+Country requirement: a yellow fever vaccination certificate is required for travellers over 1 year of age arriving from
+countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours through an
+airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+YEMEN
+Yellow fever
+Country requirement: no
+Yellow fever vaccine recommendation: no
+Malaria
+Malaria risk due predominantly to P. falciparum exists throughout the year, but mainly from September to February
+inclusive, in the whole country below 2000 m. There is no risk in Sanaʼa city. Malaria risk on Socotra Island is very
+limited.
+Recommended prevention in risk areas: C; Socotra Island: A
+ZAMBIA
+Yellow fever (2015)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: in general, no
+Generally not recommended for travellers going to the following areas: the entire North West and Western provinces.
+Not recommended in all other areas not listed above.
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists throughout the year in the whole country.
+Recommended prevention: C
+ZIMBABWE
+Yellow fever (2016)
+Country requirement: a yellow fever vaccination certificate is required for travellers over 9 months of age arriving
+from countries with risk of yellow fever transmission and for travellers having transited for more than 12 hours
+through an airport of a country with risk of yellow fever transmission.
+Yellow fever vaccine recommendation: no
+Malaria (2015)
+Malaria risk due predominantly to P. falciparum exists from November to June inclusive in areas below 1200 m and
+throughout the year in the Zambezi valley. In Bulawayo and Harare, the risk is negligible.
+Recommended prevention: C
