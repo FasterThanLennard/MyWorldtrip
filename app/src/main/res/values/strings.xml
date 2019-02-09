@@ -45,4 +45,6 @@
     <string name="noCountryToRestore">Kein Land zum Wiederherstellen vorhanden.</string>
     <string name="datasaved">Daten wurden gespeichert.</string>
     <string name="lincenseInformation">Lizenzinformationen</string>
+    <string name="flag">Flagge</string>
+    <string name="timeline">Timeline</string>
 </resources>

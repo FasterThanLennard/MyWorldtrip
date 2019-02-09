@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -49,7 +50,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
         timelineActivity = ((TimelineActivity)context);
         ConstraintLayout clOuter = itemView.findViewById(R.id.clOutter);
         setTimelinecardStyle(clTimelinecard, itemView.getContext());
-        setConstraintLayoutStyle(clOuter);
+        setConstraintLayoutStyle(clOuter, context);
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -112,17 +113,18 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
         return null;
     }
 
-    private void setConstraintLayoutStyle(ConstraintLayout layout) {
+    private void setConstraintLayoutStyle(ConstraintLayout layout, Context context) {
         GradientDrawable border = new GradientDrawable();
-        border.setColor(Color.LTGRAY); // background
-        border.setStroke(2, 0xFF000000); //black border with full opacity
+        border.setColor(ContextCompat.getColor(context, R.color.lightGrey)); // background
+        //border.setStroke(2, 0xFF000000); //black border with full opacity
+        border.setStroke(2, Color.LTGRAY); //black border with full opacity
         border.setCornerRadius(50.0f);
         layout.setBackground(border);
     }
 
     private void setTimelinecardStyle(ConstraintLayout layout, Context context) {
         GradientDrawable border = new GradientDrawable();
-        border.setColor(context.getColor(R.color.lightGreen));
+        border.setColor(ContextCompat.getColor(context, R.color.lightGreen));
         layout.setBackground(border);
     }
 }

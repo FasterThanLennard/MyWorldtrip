@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="lightGrey">#f0f0f0</color>
-    <color name="lightGreen">#218128</color>
-    <color name="darkGreen">#1B5E20</color>
+    <color name="lightGrey_old">#f0f0f0</color>
+    <color name="lightGreen">#F8F7F7</color>
+    <color name="lightGreen_old">#F2218128</color>
+    <color name="darkGreen">#F2218128</color>
+    <color name="darkGreen_old">#1B5E20</color>
 </resources>
