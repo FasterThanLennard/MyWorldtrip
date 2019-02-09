@@ -1,11 +1,13 @@
 package com.rhahn.myworldtrip.Activities;
 
+import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 
 import com.rhahn.myworldtrip.Adapter.CountryAdapter;
@@ -31,6 +33,9 @@ public class CountryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_country);
         country = (CountryData) getIntent().getSerializableExtra("countryData");
+
+        //set toolbar background and title
+        getSupportActionBar().setBackgroundDrawable(getDrawable(R.drawable.actionbar_background));
         getSupportActionBar().setTitle(country.getName());
 
         worldtripData = Datapersistance.loadData(this);

@@ -11,6 +11,7 @@ public class FAQActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faq);
+        getSupportActionBar().setBackgroundDrawable(getDrawable(R.drawable.actionbar_background));
         getSupportActionBar().setTitle(R.string.faq);
     }
 }

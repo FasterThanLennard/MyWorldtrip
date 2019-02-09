@@ -95,7 +95,7 @@ public class DataCreator {
     }
 
     private AttributeData createVaccination(JSONObject country, Context context) {
-        String info = Datarequest.getVaccinationInformation(context);
+        String info = Datarequest.getFileAsString(context, R.raw.vaccinations);
         String tmpString = "";
         try {
             tmpString = country.getString("name").toUpperCase();

@@ -114,7 +114,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
 
     private void setConstraintLayoutStyle(ConstraintLayout layout) {
         GradientDrawable border = new GradientDrawable();
-        border.setColor(Color.LTGRAY); //white background
+        border.setColor(Color.LTGRAY); // background
         border.setStroke(2, 0xFF000000); //black border with full opacity
         border.setCornerRadius(50.0f);
         layout.setBackground(border);
@@ -122,7 +122,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
 
     private void setTimelinecardStyle(ConstraintLayout layout, Context context) {
         GradientDrawable border = new GradientDrawable();
-        border.setColor(context.getColor(R.color.lightGreen)); //white background
+        border.setColor(context.getColor(R.color.lightGreen));
         layout.setBackground(border);
     }
 }

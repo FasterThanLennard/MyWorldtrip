@@ -11,6 +11,8 @@ public class TraveloverviewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_traveloverview);
+
+        getSupportActionBar().setBackgroundDrawable(getDrawable(R.drawable.actionbar_background));
         getSupportActionBar().setTitle(getString(R.string.traveloverview));
     }
 }

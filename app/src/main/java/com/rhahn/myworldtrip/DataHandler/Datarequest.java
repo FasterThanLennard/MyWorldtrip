@@ -45,8 +45,8 @@ public class Datarequest {
         DataRequestQueue.getInstance().add(stringRequest);
     }
 
-    public static String getVaccinationInformation(Context context){
-        InputStream is = context.getResources().openRawResource(R.raw.vaccinations);
+    public static String getFileAsString(Context context, int ressource){
+        InputStream is = context.getResources().openRawResource(ressource);
         Writer writer = new StringWriter();
         char[] buffer = new char[1024];
         try {
