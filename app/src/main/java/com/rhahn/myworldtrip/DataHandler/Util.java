@@ -1,5 +1,10 @@
 package com.rhahn.myworldtrip.DataHandler;
 
+import android.content.Context;
+import android.util.DisplayMetrics;
+import android.view.Display;
+
+import com.rhahn.myworldtrip.Activities.TimelineActivity;
 import com.rhahn.myworldtrip.Data.CountryData;
 import com.rhahn.myworldtrip.Data.MyWorldtripData;
 
@@ -49,6 +54,19 @@ public class Util {
                 return i;
         }
         return -1;
+    }
+
+    public static boolean isTablet(Context context)
+    {
+        Display display = ((TimelineActivity)context).getWindowManager().getDefaultDisplay();
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        display.getMetrics(displayMetrics);
+
+        double wInches =   displayMetrics.widthPixels / (double)displayMetrics.densityDpi;
+        double hInches = displayMetrics.heightPixels / (double)displayMetrics.densityDpi;
+
+        double screenDiagonal = Math.sqrt(Math.pow(wInches, 2) + Math.pow(hInches, 2));
+        return (screenDiagonal >= 7.0);
     }
 
 }

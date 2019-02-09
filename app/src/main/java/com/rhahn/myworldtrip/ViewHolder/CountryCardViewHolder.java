@@ -19,7 +19,7 @@ public class CountryCardViewHolder extends RecyclerView.ViewHolder {
 
     public CountryCardViewHolder(@NonNull View itemView) {
         super(itemView);
-        viewBuilder = new CountrycardViewBuilder();
+        viewBuilder = new CountrycardViewBuilder(itemView.getContext());
         tvAttribute = itemView.findViewById(R.id.tvAttributeName);
         child = itemView.findViewById(R.id.llChildcard);
         itemView.setOnClickListener(new View.OnClickListener() {
@@ -37,7 +37,7 @@ public class CountryCardViewHolder extends RecyclerView.ViewHolder {
     public void setAttribute(AttributeData attribute, int i) {
         AttributeType type;
         if (viewBuilder == null)
-            viewBuilder = new CountrycardViewBuilder();
+            viewBuilder = new CountrycardViewBuilder(child.getContext());
 
         tvAttribute.setText(attribute.getName());
         type = attribute.getType();

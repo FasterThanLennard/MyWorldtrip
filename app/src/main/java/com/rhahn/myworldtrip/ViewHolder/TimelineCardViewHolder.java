@@ -40,7 +40,8 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
 
     public TimelineCardViewHolder(@NonNull final View itemView) {
         super(itemView);
-        isTablet = TimelineActivity.isTablet(itemView.getContext());
+        //getVariables
+        isTablet = Util.isTablet(itemView.getContext());
         context = itemView.getContext();
         timeline = itemView.findViewById(R.id.ivTimeline);
         flag = itemView.findViewById(R.id.ivFlag);
@@ -48,6 +49,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
         traveldate = itemView.findViewById(R.id.tvTraveldate);
         clTimelinecard = itemView.findViewById((R.id.clTimlinecard));
         timelineActivity = ((TimelineActivity)context);
+
         ConstraintLayout clOuter = itemView.findViewById(R.id.clOutter);
         setTimelinecardStyle(clTimelinecard, itemView.getContext());
         setConstraintLayoutStyle(clOuter, context);
@@ -60,6 +62,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
 
                 if(isTablet){
                     rvCountry = timelineActivity.findViewById(R.id.rvCountry);
+                    timelineActivity.setCurrentSelected(countryData);
                     rvCountry.setLayoutManager(new LinearLayoutManager(itemView.getContext()));
                     rvCountry.setAdapter(new CountryAdapter(countryData));
                 } else {

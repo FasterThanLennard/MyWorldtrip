@@ -12,13 +12,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.rhahn.myworldtrip.Activities.CountryActivity;
+import com.rhahn.myworldtrip.Activities.TimelineActivity;
+import com.rhahn.myworldtrip.DataHandler.Util;
 import com.rhahn.myworldtrip.Enum.AttributeType;
 import com.rhahn.myworldtrip.R;
 
 import java.util.HashMap;
 
-
 public class CountrycardViewBuilder {
+
+    private boolean isTablet;
+
+    public CountrycardViewBuilder(Context context) {
+        this.isTablet = Util.isTablet(context);
+    }
 
     public void addTextview(LinearLayout linearLayout, HashMap<String, String> attributes, boolean editable) {
         for (String attributeName : attributes.keySet()) {
@@ -57,9 +64,15 @@ public class CountrycardViewBuilder {
             public void onFocusChange(View v, boolean hasFocus) {
                 if (!hasFocus) {
                     int i = Integer.parseInt(tvHiddenID.getText().toString());
-                    CountryActivity countryActivity = (CountryActivity) v.getContext();
-                    countryActivity.saveAttributeData(i, AttributeType.MULTILINE.toString(), editText.getText().toString());
-                    Toast.makeText(v.getContext().getApplicationContext(), countryActivity.getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
+                    if(isTablet){
+                        TimelineActivity countryActivity = (TimelineActivity) v.getContext();
+                        countryActivity.saveAttributeData(i, AttributeType.MULTILINE.toString(), editText.getText().toString());
+                        Toast.makeText(v.getContext().getApplicationContext(), countryActivity.getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
+                    } else {
+                        CountryActivity countryActivity = (CountryActivity) v.getContext();
+                        countryActivity.saveAttributeData(i, AttributeType.MULTILINE.toString(), editText.getText().toString());
+                        Toast.makeText(v.getContext().getApplicationContext(), countryActivity.getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         });

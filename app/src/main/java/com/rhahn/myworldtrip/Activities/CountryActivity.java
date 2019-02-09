@@ -3,6 +3,7 @@ package com.rhahn.myworldtrip.Activities;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -42,7 +43,7 @@ public class CountryActivity extends AppCompatActivity {
 
         //recyclerview
         rvCountry = findViewById(R.id.rvCountry);
-        rvCountry.setBackgroundColor(getColor(R.color.lightGreen));
+        rvCountry.setBackgroundColor(ContextCompat.getColor(this, R.color.lightGreen));
         rvCountry.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         rvCountry.setAdapter(new CountryAdapter(country));
     }

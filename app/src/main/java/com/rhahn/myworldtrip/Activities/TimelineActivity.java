@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -30,6 +31,7 @@ import com.rhahn.myworldtrip.Data.MyWorldtripData;
 import com.rhahn.myworldtrip.DataHandler.DataCreator;
 import com.rhahn.myworldtrip.DataHandler.DataRequestQueue;
 import com.rhahn.myworldtrip.DataHandler.Datapersistance;
+import com.rhahn.myworldtrip.DataHandler.Util;
 import com.rhahn.myworldtrip.R;
 
 import org.json.JSONObject;
@@ -44,6 +46,7 @@ public class TimelineActivity extends AppCompatActivity {
     FloatingActionButton fabChooseCountry;
     MyWorldtripData myWorldtripData;
     CountryData newCountryData;
+    CountryData currentSelected;
     TimelineDataAdapter timelineAdapter;
     Toolbar tbMain;
     ImageView imageView;
@@ -58,10 +61,10 @@ public class TimelineActivity extends AppCompatActivity {
         myWorldtripData = (MyWorldtripData) getIntent().getSerializableExtra("worldtripdata");
         //setToolbar
         tbMain = findViewById(R.id.toolbar_main);
-        tbMain.setBackgroundColor(getColor(R.color.darkGreen));
+        tbMain.setBackgroundColor(ContextCompat.getColor(this, R.color.darkGreen));
         setSupportActionBar(tbMain);
         imageView = findViewById(R.id.ivFlag);
-        isTablet = isTablet(this);
+        isTablet = Util.isTablet(this);
 
         if(isTablet)
             rvCountry = findViewById(R.id.rvCountry);
@@ -232,23 +235,20 @@ public class TimelineActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public static boolean isTablet(Context context)
-    {
-        Display display = ((TimelineActivity)context).getWindowManager().getDefaultDisplay();
-        DisplayMetrics displayMetrics = new DisplayMetrics();
-        display.getMetrics(displayMetrics);
-
-        double wInches =   displayMetrics.widthPixels / (double)displayMetrics.densityDpi;
-        double hInches = displayMetrics.heightPixels / (double)displayMetrics.densityDpi;
-
-        double screenDiagonal = Math.sqrt(Math.pow(wInches, 2) + Math.pow(hInches, 2));
-        return (screenDiagonal >= 7.0);
-    }
-
     @Override
     protected void onResume() {
         super.onResume();
         this.getIntent().addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+    }
+
+    public void setCurrentSelected(CountryData currentSelected) {
+        this.currentSelected = currentSelected;
+    }
+
+    public void saveAttributeData(int attributeIndex, String key, String value){
+        int countryIndex = Util.getCountryIndex(myWorldtripData, currentSelected);
+        myWorldtripData.getCountries().get(countryIndex).getAttributes().get(attributeIndex).getValues().put(key, value);
+        Datapersistance.saveData(myWorldtripData, this);
     }
 }
 
