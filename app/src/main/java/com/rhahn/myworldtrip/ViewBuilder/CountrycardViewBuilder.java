@@ -22,9 +22,11 @@ import java.util.HashMap;
 public class CountrycardViewBuilder {
 
     private boolean isTablet;
+    private Context context;
 
     public CountrycardViewBuilder(Context context) {
         this.isTablet = Util.isTablet(context);
+        this.context = context;
     }
 
     public void addTextview(LinearLayout linearLayout, HashMap<String, String> attributes, boolean editable) {
@@ -64,19 +66,17 @@ public class CountrycardViewBuilder {
             public void onFocusChange(View v, boolean hasFocus) {
                 if (!hasFocus) {
                     int i = Integer.parseInt(tvHiddenID.getText().toString());
-                    if(isTablet){
-                        TimelineActivity countryActivity = (TimelineActivity) v.getContext();
-                        countryActivity.saveAttributeData(i, AttributeType.MULTILINE.toString(), editText.getText().toString());
-                        Toast.makeText(v.getContext().getApplicationContext(), countryActivity.getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
+                    if (isTablet) {
+                        TimelineActivity timelineActivity = (TimelineActivity) v.getContext();
+                        timelineActivity.saveAttributeData(i, AttributeType.MULTILINE.toString(), editText.getText().toString());
                     } else {
                         CountryActivity countryActivity = (CountryActivity) v.getContext();
                         countryActivity.saveAttributeData(i, AttributeType.MULTILINE.toString(), editText.getText().toString());
-                        Toast.makeText(v.getContext().getApplicationContext(), countryActivity.getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
                     }
+                    Toast.makeText(v.getContext().getApplicationContext(), v.getContext().getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
                 }
             }
         });
-
         linearLayout.addView(editText);
     }
 
@@ -102,7 +102,7 @@ public class CountrycardViewBuilder {
 
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT, 1.0f);
         tvFirstValue.setGravity(Gravity.START);
-        tvFirstValue.setText(attributeName);
+        tvFirstValue.setText(Util.getStringValueFromName(attributeName, context));
         tvFirstValue.setLayoutParams(layoutParams);
 
         tvSecondValue.setText(attributes.get(attributeName));
@@ -124,15 +124,13 @@ public class CountrycardViewBuilder {
         tvFirstValue = new TextView(linearLayout.getContext());
         etSecondValue = new EditText(linearLayout.getContext());
 
-
         horizontalLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         horizontalLayout.setOrientation(LinearLayout.HORIZONTAL);
 
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT, 1.0f);
 
-
         tvFirstValue.setGravity(Gravity.START);
-        tvFirstValue.setText(attributeName);
+        tvFirstValue.setText(Util.getStringValueFromName(attributeName, context));
         tvFirstValue.setLayoutParams(layoutParams);
         if (attributes.get(attributeName) != null) {
             etSecondValue.setText(attributes.get(attributeName));
@@ -146,18 +144,21 @@ public class CountrycardViewBuilder {
             public void onFocusChange(View v, boolean hasFocus) {
                 if (!hasFocus) {
                     int i = Integer.parseInt(tvHiddenID.getText().toString());
-                    CountryActivity countryActivity = (CountryActivity) v.getContext();
-                    countryActivity.saveAttributeData(i, tvFirstValue.getText().toString(), etSecondValue.getText().toString());
-                    Toast.makeText(v.getContext().getApplicationContext(), countryActivity.getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
+                    if (isTablet) {
+                        TimelineActivity timelineActivity = (TimelineActivity) v.getContext();
+                        timelineActivity.saveAttributeData(i, tvFirstValue.getText().toString(), etSecondValue.getText().toString());
+                    } else {
+                        CountryActivity countryActivity = (CountryActivity) v.getContext();
+                        countryActivity.saveAttributeData(i, tvFirstValue.getText().toString(), etSecondValue.getText().toString());
+                    }
+                    Toast.makeText(v.getContext().getApplicationContext(), v.getContext().getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
                 }
             }
         });
-
         horizontalLayout.addView(tvFirstValue);
         horizontalLayout.addView(etSecondValue);
         horizontalLayout.addView(tvHiddenID);
         linearLayout.addView(horizontalLayout, linearLayout.getChildCount() - offset);
-
     }
 
     private void addEditableText(final LinearLayout linearLayout) {
@@ -209,17 +210,20 @@ public class CountrycardViewBuilder {
         editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int i, KeyEvent keyEvent) {
-                Toast.makeText(linearLayout.getContext(), "Keyevent: " + i, Toast.LENGTH_LONG).show();
                 if (i == EditorInfo.IME_ACTION_DONE) {
                     Toast.makeText(linearLayout.getContext(), "Länge: " + linearLayout.getChildCount(), Toast.LENGTH_LONG).show();
                     if (textView.getText().length() > 0) {
                         int j = Integer.parseInt(tvHiddenID.getText().toString());
-                        CountryActivity countryActivity = (CountryActivity) textView.getContext();
-                        buildNumberinput(linearLayout, attributes, textView.getText().toString(), 1, j);
-                        countryActivity.saveAttributeData(j, textView.getText().toString(), "");
+                        if (isTablet) {
+                            TimelineActivity timelineActivity = (TimelineActivity) textView.getContext();
+                            buildNumberinput(linearLayout, attributes, textView.getText().toString(), 1, j);
+                            timelineActivity.saveAttributeData(j, textView.getText().toString(), "");
+                        } else {
+                            CountryActivity countryActivity = (CountryActivity) textView.getContext();
+                            buildNumberinput(linearLayout, attributes, textView.getText().toString(), 1, j);
+                            countryActivity.saveAttributeData(j, textView.getText().toString(), "");
+                        }
                     }
-
-                    //TODO add to attributes
                     editText.setText("");
                     editText.setHint(R.string.newEntry);
                 }

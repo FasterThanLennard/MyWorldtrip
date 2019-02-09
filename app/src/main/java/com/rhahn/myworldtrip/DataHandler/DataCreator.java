@@ -48,9 +48,9 @@ public class DataCreator {
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
 
-        values.put(context.getString(R.string.from), sdf.format(countryData.getDateFrom()));
-        values.put(context.getString(R.string.to), sdf.format(countryData.getDateTo()));
-        return new AttributeData(AttributeType.TEXTLIST, context.getString(R.string.traveldates), values, false);
+        values.put(context.getResources().getResourceEntryName(R.string.from), sdf.format(countryData.getDateFrom()));
+        values.put(context.getResources().getResourceEntryName(R.string.to), sdf.format(countryData.getDateTo()));
+        return new AttributeData(AttributeType.TEXTLIST, context.getResources().getResourceEntryName(R.string.traveldates), values, false);
     }
 
     private AttributeData createGeneralInformation(JSONObject country, Context context) {
@@ -67,31 +67,31 @@ public class DataCreator {
             }
             String population = country.getInt("population") + "";
 
-            values.put(context.getString(R.string.capital), capital);
-            values.put(context.getString(R.string.subregion), subregion);
-            values.put(context.getString(R.string.curreny), currency);
-            values.put(context.getString(R.string.population), population);
-            values.put(context.getString(R.string.languages), language);
-            values.put(context.getString(R.string.timezones), timezone);
+            values.put(context.getResources().getResourceEntryName(R.string.capital), capital);
+            values.put(context.getResources().getResourceEntryName(R.string.subregion), subregion);
+            values.put(context.getResources().getResourceEntryName(R.string.curreny), currency);
+            values.put(context.getResources().getResourceEntryName(R.string.population), population);
+            values.put(context.getResources().getResourceEntryName(R.string.languages), language);
+            values.put(context.getResources().getResourceEntryName(R.string.timezones), timezone);
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        return new AttributeData(AttributeType.TEXTLIST, context.getString(R.string.generalinformation), values, false);
+        return new AttributeData(AttributeType.TEXTLIST,context.getResources().getResourceEntryName(R.string.generalinformation), values, false);
     }
 
     private AttributeData createVisum(JSONObject country, Context context) {
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
-        values.put(context.getString(R.string.duty), "-");
-        values.put(context.getString(R.string.neededFrom), "-");
-        return new AttributeData(AttributeType.TEXTLIST, context.getString(R.string.visum), values, false);
+        values.put(context.getResources().getResourceEntryName(R.string.duty), "-");
+        values.put(context.getResources().getResourceEntryName(R.string.neededFrom), "-");
+        return new AttributeData(AttributeType.TEXTLIST, context.getResources().getResourceEntryName(R.string.visum), values, false);
     }
 
     private AttributeData createWeather(JSONObject country, Context context) {
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
-        values.put(context.getString(R.string.mintemp), "-");
-        values.put(context.getString(R.string.maxtemp), "-");
-        values.put(context.getString(R.string.raindays), "-");
-        return new AttributeData(AttributeType.TEXTLIST, context.getString(R.string.weather), values, false);
+        values.put(context.getResources().getResourceEntryName(R.string.mintemp), "-");
+        values.put(context.getResources().getResourceEntryName(R.string.maxtemp), "-");
+        values.put(context.getResources().getResourceEntryName(R.string.raindays), "-");
+        return new AttributeData(AttributeType.TEXTLIST,context.getResources().getResourceEntryName(R.string.weather), values, false);
     }
 
     private AttributeData createVaccination(JSONObject country, Context context) {
@@ -119,26 +119,26 @@ public class DataCreator {
 
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
         values.put(tmpString, "-");
-        return new AttributeData(AttributeType.TEXTVIEW, context.getString(R.string.vaccinations), values, false);
+        return new AttributeData(AttributeType.TEXTVIEW, context.getResources().getResourceEntryName(R.string.vaccinations), values, false);
     }
 
     private AttributeData createAttractions(Context context) {
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
         values.put(AttributeType.MULTILINE.toString(), "");
-        return new AttributeData(AttributeType.MULTILINE, context.getString(R.string.attractions), values, true);
+        return new AttributeData(AttributeType.MULTILINE, context.getResources().getResourceEntryName(R.string.attractions), values, true);
     }
 
     private AttributeData createNotes(Context context) {
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
         values.put(AttributeType.MULTILINE.toString(),"");
-        return new AttributeData(AttributeType.MULTILINE, context.getString(R.string.notes), values, true);
+        return new AttributeData(AttributeType.MULTILINE,context.getResources().getResourceEntryName(R.string.notes), values, true);
     }
 
     private AttributeData createTravelcosts(Context context) {
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
-        values.put(context.getString(R.string.flightcost), "");
-        values.put(context.getString(R.string.nightcost), "");
-        values.put(context.getString(R.string.dailycost), "");
-        return new AttributeData(AttributeType.NUMBERINPUT, context.getString(R.string.travelcosts), values, true);
+        values.put(context.getResources().getResourceEntryName(R.string.flightcost), "");
+        values.put(context.getResources().getResourceEntryName(R.string.nightcost), "");
+        values.put(context.getResources().getResourceEntryName(R.string.dailycost), "");
+        return new AttributeData(AttributeType.NUMBERINPUT, context.getResources().getResourceEntryName(R.string.travelcosts), values, true);
     }
 }

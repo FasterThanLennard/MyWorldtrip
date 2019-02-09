@@ -9,6 +9,7 @@ import android.support.constraint.ConstraintLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -33,10 +34,10 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
     private TextView countryname;
     private TextView traveldate;
     private Context context;
-    private ConstraintLayout clTimelinecard;
-    TimelineActivity timelineActivity;
-    RecyclerView rvCountry;
+    private TimelineActivity timelineActivity;
+    private RecyclerView rvCountry;
     private boolean isTablet;
+    Toolbar tbCountry;
 
     public TimelineCardViewHolder(@NonNull final View itemView) {
         super(itemView);
@@ -47,7 +48,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
         flag = itemView.findViewById(R.id.ivFlag);
         countryname = itemView.findViewById(R.id.tvCountryname);
         traveldate = itemView.findViewById(R.id.tvTraveldate);
-        clTimelinecard = itemView.findViewById((R.id.clTimlinecard));
+        ConstraintLayout clTimelinecard = itemView.findViewById((R.id.clTimlinecard));
         timelineActivity = ((TimelineActivity)context);
 
         ConstraintLayout clOuter = itemView.findViewById(R.id.clOutter);
@@ -63,6 +64,8 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
                 if(isTablet){
                     rvCountry = timelineActivity.findViewById(R.id.rvCountry);
                     timelineActivity.setCurrentSelected(countryData);
+                    tbCountry = timelineActivity.findViewById(R.id.toolbar_country);
+                    tbCountry.setTitle(name);
                     rvCountry.setLayoutManager(new LinearLayoutManager(itemView.getContext()));
                     rvCountry.setAdapter(new CountryAdapter(countryData));
                 } else {

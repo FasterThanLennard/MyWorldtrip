@@ -38,8 +38,12 @@ public class ImageRequest {
             @Override
             public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
                 InputStream stream = response.body().byteStream();
-                Sharp.loadInputStream(stream).into(target);
-                stream.close();
+                try {
+                    Sharp.loadInputStream(stream).into(target);
+                    stream.close();
+                } catch (Exception e){
+                    e.printStackTrace();
+                }
             }
         });
     }

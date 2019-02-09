@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.rhahn.myworldtrip.Data.AttributeData;
 import com.rhahn.myworldtrip.Data.MyWorldtripData;
+import com.rhahn.myworldtrip.DataHandler.Util;
 import com.rhahn.myworldtrip.Enum.AttributeType;
 import com.rhahn.myworldtrip.R;
 import com.rhahn.myworldtrip.ViewBuilder.CountrycardViewBuilder;
@@ -39,7 +40,7 @@ public class CountryCardViewHolder extends RecyclerView.ViewHolder {
         if (viewBuilder == null)
             viewBuilder = new CountrycardViewBuilder(child.getContext());
 
-        tvAttribute.setText(attribute.getName());
+        tvAttribute.setText(Util.getStringValueFromName(attribute.getName(), child.getContext()));
         type = attribute.getType();
         switch (type) {
             case TEXTVIEW:

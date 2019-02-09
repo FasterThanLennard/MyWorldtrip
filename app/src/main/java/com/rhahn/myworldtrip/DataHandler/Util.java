@@ -1,5 +1,6 @@
 package com.rhahn.myworldtrip.DataHandler;
 
+import android.app.Activity;
 import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.Display;
@@ -56,17 +57,27 @@ public class Util {
         return -1;
     }
 
-    public static boolean isTablet(Context context)
-    {
-        Display display = ((TimelineActivity)context).getWindowManager().getDefaultDisplay();
+    /**
+     *
+     * @param context
+     * @return
+     */
+    public static boolean isTablet(Context context) {
+        Display display;
+        display = ((Activity) context).getWindowManager().getDefaultDisplay();
+
         DisplayMetrics displayMetrics = new DisplayMetrics();
         display.getMetrics(displayMetrics);
 
-        double wInches =   displayMetrics.widthPixels / (double)displayMetrics.densityDpi;
-        double hInches = displayMetrics.heightPixels / (double)displayMetrics.densityDpi;
+        double wInches = displayMetrics.widthPixels / (double) displayMetrics.densityDpi;
+        double hInches = displayMetrics.heightPixels / (double) displayMetrics.densityDpi;
 
         double screenDiagonal = Math.sqrt(Math.pow(wInches, 2) + Math.pow(hInches, 2));
         return (screenDiagonal >= 7.0);
     }
 
+    public static String getStringValueFromName(String nameValue, Context context) {
+        int resourceId = context.getResources().getIdentifier(nameValue ,"string",context.getPackageName());
+        return context.getString(resourceId);
+    }
 }

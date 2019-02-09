@@ -49,6 +49,7 @@ public class TimelineActivity extends AppCompatActivity {
     CountryData currentSelected;
     TimelineDataAdapter timelineAdapter;
     Toolbar tbMain;
+    Toolbar tbCountry;
     ImageView imageView;
     Stack<CountryData> restoreCountry = new Stack<>();
     boolean isTablet;
@@ -66,9 +67,11 @@ public class TimelineActivity extends AppCompatActivity {
         imageView = findViewById(R.id.ivFlag);
         isTablet = Util.isTablet(this);
 
-        if(isTablet)
+        if(isTablet) {
             rvCountry = findViewById(R.id.rvCountry);
-
+            tbCountry = findViewById(R.id.toolbar_country);
+            tbCountry.setBackgroundColor(ContextCompat.getColor(this, R.color.darkGreen));
+        }
         //Load from filesystem
         if (myWorldtripData == null)
             myWorldtripData = Datapersistance.loadData(this);
