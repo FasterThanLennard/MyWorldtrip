@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.rhahn.myworldtrip.Data.CountryData;
-import com.rhahn.myworldtrip.Data.TimelineData;
 import com.rhahn.myworldtrip.R;
 import com.rhahn.myworldtrip.ViewHolder.TimelineCardViewHolder;
 

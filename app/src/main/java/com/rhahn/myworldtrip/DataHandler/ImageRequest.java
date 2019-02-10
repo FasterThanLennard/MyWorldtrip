@@ -16,9 +16,20 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+/**
+ * Class to do request to get and set svg images from url to {@link ImageView}
+ *
+ * @author Robin Hahn
+ */
 public class ImageRequest {
     private static OkHttpClient httpClient;
 
+    /**
+     * Sets svg image to {@link ImageView}
+     * @param context current context
+     * @param url url of image
+     * @param target {@link android.widget.TextView} to add image to
+     */
     public static void fetchSvg(Context context, String url, final ImageView target) {
         if (httpClient == null) {
             // Use cache for performance and basic offline capability
@@ -36,6 +47,7 @@ public class ImageRequest {
 
             @Override
             public void onResponse(@NonNull Call call, @NonNull Response response) {
+                assert response.body() != null;
                 InputStream stream = response.body().byteStream();
                 try {
                     Sharp.loadInputStream(stream).into(target);

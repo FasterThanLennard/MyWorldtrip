@@ -15,8 +15,13 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Locale;
 
+/**
+ * Responselistener for the all country request
+ *
+ * @author Robin Hahn
+ */
 public class AllCountryResponseListener implements Response.Listener<String> {
-    Context context;
+    private Context context;
 
     public AllCountryResponseListener(Context context) {
         this.context = context;
@@ -34,9 +39,10 @@ public class AllCountryResponseListener implements Response.Listener<String> {
 
             String countryName;
             boolean isEnglish = currentLang.equals("en");
+            //sets values from request
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject currentCountry = (JSONObject) jsonArray.get(i);
-                if(currentCountry.getJSONObject("translations").has(currentLang) && isEnglish == false){
+                if(currentCountry.getJSONObject("translations").has(currentLang) && !isEnglish){
                     countryName = currentCountry.getJSONObject("translations").get(currentLang).toString();
                     allCountries.add(countryName + " (" + currentCountry.get("alpha2Code").toString() + ")");
                 } else {
@@ -44,6 +50,7 @@ public class AllCountryResponseListener implements Response.Listener<String> {
                 }
             }
 
+            //set values to autocomplete textview
             ArrayAdapter<String> allCountriesAdapter = new ArrayAdapter<>(context, android.R.layout.simple_spinner_dropdown_item, allCountries);
             //spCountries.setAdapter(adapter);
             etCountry.setAdapter(allCountriesAdapter);

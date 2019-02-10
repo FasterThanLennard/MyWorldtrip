@@ -27,7 +27,11 @@ import com.rhahn.myworldtrip.R;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-
+/**
+ * Viewholder for {@link RecyclerView} of TimelineActivity
+ *
+ * @author Robin Hahn
+ */
 public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
     private ImageView timeline;
     private ImageView flag;
@@ -37,7 +41,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
     private TimelineActivity timelineActivity;
     private RecyclerView rvCountry;
     private boolean isTablet;
-    Toolbar tbCountry;
+    private Toolbar tbCountry;
 
     public TimelineCardViewHolder(@NonNull final View itemView) {
         super(itemView);
@@ -54,6 +58,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
         ConstraintLayout clOuter = itemView.findViewById(R.id.clOutter);
         setTimelinecardStyle(clTimelinecard, itemView.getContext());
         setConstraintLayoutStyle(clOuter, context);
+        //set onclick listener to each card, change to country information
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,6 +82,12 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
         });
     }
 
+    /**
+     * Set countrydata to Cards
+     * @param countryData data to add
+     * @param i index of countrydata
+     * @param countryCnt number of countries
+     */
     public void setCountryData(CountryData countryData, int i, int countryCnt) {
         if (i == 0 && countryCnt == 1) {
             timeline.setImageResource(R.mipmap.timeline_single);
@@ -108,6 +119,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
         Date dateFrom = Util.convertStringToDate(traveldates.substring(0, pos - 1));
         Date dateTo = Util.convertStringToDate(traveldates.substring(pos + 2));
 
+        assert myWorldtripData != null;
         if (myWorldtripData.getCountries().size() == 0 || dateFrom == null || dateTo == null)
             return null;
 

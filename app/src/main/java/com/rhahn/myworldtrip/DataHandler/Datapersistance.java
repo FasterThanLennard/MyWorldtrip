@@ -5,15 +5,25 @@ import android.content.Context;
 import com.rhahn.myworldtrip.Data.MyWorldtripData;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+/**
+ * {@link Datapersistance} class for loading and saving {@link MyWorldtripData}
+ *
+ * @author Robin Hahn
+ */
 public class Datapersistance {
-    static String fileName = "worldtripData";
+    private static String fileName = "worldtripData";
 
+    /**
+     * Saves {@link MyWorldtripData} into the phone
+     *
+     * @param data    {@link MyWorldtripData} to save
+     * @param context current context
+     * @return true if save is successful
+     */
     public static boolean saveData(MyWorldtripData data, Context context) {
         FileOutputStream fileOutputStream = null;
         try {
@@ -28,8 +38,14 @@ public class Datapersistance {
         return true;
     }
 
+    /**
+     * Loads and returns {@link MyWorldtripData} saved on the phone
+     *
+     * @param context current context
+     * @return MyWorldtripData saved on the phone if no data found return null
+     */
     public static MyWorldtripData loadData(Context context) {
-        FileInputStream fileInputStream = null;
+        FileInputStream fileInputStream;
         try {
             fileInputStream = context.openFileInput(fileName);
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);

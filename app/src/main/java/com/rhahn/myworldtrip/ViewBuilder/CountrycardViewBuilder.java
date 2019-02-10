@@ -19,6 +19,11 @@ import com.rhahn.myworldtrip.R;
 
 import java.util.HashMap;
 
+/**
+ * Class that creates different view for the Country Recyclerview
+ *
+ * @author Robin Hahn
+ */
 public class CountrycardViewBuilder {
 
     private boolean isTablet;
@@ -29,6 +34,12 @@ public class CountrycardViewBuilder {
         this.context = context;
     }
 
+    /**
+     * adds textview to given {@link LinearLayout}
+     * @param linearLayout layout to add view to
+     * @param attributes values to add to the view
+     * @param editable true if values are editable
+     */
     public void addTextview(LinearLayout linearLayout, HashMap<String, String> attributes, boolean editable) {
         for (String attributeName : attributes.keySet()) {
             buildTextview(linearLayout, attributeName, 0);
@@ -38,12 +49,24 @@ public class CountrycardViewBuilder {
         }
     }
 
+    /**
+     * adds textlist to given {@link LinearLayout}
+     * @param linearLayout layout to add view to
+     * @param attributes values to add to the view
+     * @param editable true if values are editable
+     */
     public void addTextlist(LinearLayout linearLayout, HashMap<String, String> attributes, boolean editable) {
         for (String attributeName : attributes.keySet()) {
             buildTextlist(linearLayout, attributes, attributeName, 0);
         }
     }
 
+    /**
+     * adds numberinput to given {@link LinearLayout}
+     * @param linearLayout layout to add view to
+     * @param attributes values to add to the view
+     * @param editable true if values are editable
+     */
     public void addNumberinput(LinearLayout linearLayout, HashMap<String, String> attributes, boolean editable, int i) {
         for (String attributeName : attributes.keySet()) {
             buildNumberinput(linearLayout, attributes, attributeName, 0, i);
@@ -53,6 +76,12 @@ public class CountrycardViewBuilder {
         }
     }
 
+    /**
+     * adds multiline textview to given {@link LinearLayout}
+     * @param linearLayout layout to add view to
+     * @param attributes values to add to the view
+     * @param index index of attribute
+     */
     public void addMultiline(LinearLayout linearLayout, HashMap<String, String> attributes, int index) {
         final EditText editText = new EditText(linearLayout.getContext());
         final TextView tvHiddenID = createHiddenTextView(linearLayout.getContext(), String.valueOf(index));
@@ -81,6 +110,12 @@ public class CountrycardViewBuilder {
         linearLayout.addView(editText);
     }
 
+    /**
+     * Creates a textview and adds it to linearLayout
+     * @param linearLayout layout to add view to
+     * @param attributeName name of attribute
+     * @param offset value if it shouldn't be added to the last position of the linear layout
+     */
     private void buildTextview(LinearLayout linearLayout, String attributeName, int offset) {
         TextView textView;
         textView = new TextView(linearLayout.getContext());
@@ -91,6 +126,13 @@ public class CountrycardViewBuilder {
         linearLayout.addView(textView, linearLayout.getChildCount() - offset);
     }
 
+    /**
+     * Creates a list of textviews and adds it to linearLayout
+     * @param linearLayout layout to add view to
+     * @param attributes values of attribute
+     * @param attributeName name of attribute
+     * @param offset value if it shouldn't be added to the last position of the linear layout
+     */
     private void buildTextlist(LinearLayout linearLayout, HashMap<String, String> attributes, String attributeName, int offset) {
         LinearLayout horizontalLayout;
         TextView tvFirstValue;
@@ -118,7 +160,14 @@ public class CountrycardViewBuilder {
         linearLayout.addView(horizontalLayout, linearLayout.getChildCount() - offset);
     }
 
-
+    /**
+     * Creates a list of textview and numberinputs and adds it to linearLayout
+     * @param linearLayout layout to add view to
+     * @param attributes values of attribute
+     * @param attributeName name of attribute
+     * @param offset value if it shouldn't be added to the last position of the linear layout
+     * @param i index of the attribute
+     */
     private void buildNumberinput(final LinearLayout linearLayout, HashMap<String, String> attributes, String attributeName, int offset, int i) {
         LinearLayout horizontalLayout;
         final TextView tvFirstValue;
@@ -130,6 +179,7 @@ public class CountrycardViewBuilder {
         tvFirstValue.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
         etSecondValue.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
 
+        //set postion of layout
         horizontalLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         horizontalLayout.setOrientation(LinearLayout.HORIZONTAL);
 
@@ -139,10 +189,12 @@ public class CountrycardViewBuilder {
         String entryName = getValueName(attributeName);
         tvFirstValue.setText(entryName);
 
+        //set values
         tvFirstValue.setLayoutParams(layoutParams);
         if (attributes.get(attributeName) != null) {
             etSecondValue.setText(attributes.get(attributeName));
         }
+
         etSecondValue.setGravity(Gravity.START);
         etSecondValue.setLayoutParams(layoutParams);
         etSecondValue.setInputType(InputType.TYPE_CLASS_NUMBER);
@@ -152,6 +204,7 @@ public class CountrycardViewBuilder {
             public boolean onEditorAction(TextView textView, int j, KeyEvent keyEvent) {
                 if (j == EditorInfo.IME_ACTION_DONE) {
                     int i = Integer.parseInt(tvHiddenID.getText().toString());
+                    //save changed values
                     if (isTablet) {
                         TimelineActivity timelineActivity = (TimelineActivity) textView.getContext();
                         timelineActivity.saveAttributeData(i, getEntryName(tvFirstValue.getText().toString()), etSecondValue.getText().toString());
@@ -201,6 +254,12 @@ public class CountrycardViewBuilder {
         linearLayout.addView(horizontalLayout);
     }
 
+    /**
+     * Creates a list of textviews and adds it to linearLayout
+     * @param linearLayout layout to add view to
+     * @param attributes values of attribute
+     * @param index index of attribute
+     */
     private void addEditableInput(final LinearLayout linearLayout, final HashMap<String, String> attributes, int index) {
         LinearLayout horizontalLayout;
         final EditText editText;
@@ -246,6 +305,11 @@ public class CountrycardViewBuilder {
         linearLayout.addView(horizontalLayout);
     }
 
+    /**
+     * Return string of the fix costs
+     * @param value resource name
+     * @return string of the fix costs
+     */
     private String getValueName(String value){
         if(value.equals(context.getResources().getResourceEntryName(R.string.dailycost)))
             return context.getString(R.string.dailycost);
@@ -256,6 +320,11 @@ public class CountrycardViewBuilder {
         return value;
     }
 
+    /**
+     * Returns the resource name of a fix cost string
+     * @param value string
+     * @return resource name of fix cost
+     */
     private String getEntryName(String value){
         if(value.equals(context.getString(R.string.dailycost)))
             return context.getResources().getResourceEntryName(R.string.dailycost);
@@ -266,6 +335,12 @@ public class CountrycardViewBuilder {
         return value;
     }
 
+    /**
+     * Returns a hidden textview
+     * @param context current context
+     * @param value value for textview
+     * @return hidden textview
+     */
     private TextView createHiddenTextView(Context context, String value) {
         TextView tvHiddenID = new TextView(context);
         tvHiddenID.setText(value);

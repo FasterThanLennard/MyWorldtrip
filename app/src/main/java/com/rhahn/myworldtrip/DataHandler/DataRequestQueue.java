@@ -7,6 +7,11 @@ import android.content.Context;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
+/**
+ * Class to implement a RequestQueue as singelton
+ *
+ * @author Robin Hahn
+ */
 public class DataRequestQueue{
     private static  DataRequestQueue singletonInstance;
     private static RequestQueue requestQueue;

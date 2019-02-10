@@ -5,8 +5,13 @@ import android.content.Context;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 
+/**
+ * Errorlistener for the all country request
+ *
+ * @author Robin Hahn
+ */
 public class AllCountryResponseErrorListener implements Response.ErrorListener {
-    Context context;
+    private Context context;
 
     public AllCountryResponseErrorListener(Context context) {
         this.context = context;
@@ -14,6 +19,6 @@ public class AllCountryResponseErrorListener implements Response.ErrorListener {
 
     @Override
     public void onErrorResponse(VolleyError error) {
-        int i = 1;
+        error.printStackTrace();
     }
 }

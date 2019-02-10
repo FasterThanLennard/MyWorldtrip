@@ -1,5 +1,10 @@
 package com.rhahn.myworldtrip.Enum;
 
+/**
+ * Enum used to set the CardView layout
+ *
+ * @author Robin Hahn
+ */
 public enum AttributeType {
     //normal textview
     TEXTVIEW {

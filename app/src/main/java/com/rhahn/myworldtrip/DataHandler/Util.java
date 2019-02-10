@@ -5,7 +5,6 @@ import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.Display;
 
-import com.rhahn.myworldtrip.Activities.TimelineActivity;
 import com.rhahn.myworldtrip.Data.CountryData;
 import com.rhahn.myworldtrip.Data.MyWorldtripData;
 
@@ -14,38 +13,75 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Class for some useful functions needed in different classes
+ *
+ * @author Robin Hahn
+ */
 public class Util {
 
+    /**
+     * Compares to dates
+     *
+     * @param dateFrom first date
+     * @param dateTo   second date
+     * @return true if dateFrom is earlier then dateTO
+     */
     public static boolean compareDates(Date dateFrom, Date dateTo) {
         return dateFrom.getTime() < dateTo.getTime();
     }
 
+    /**
+     * Returns true if dates are the same
+     *
+     * @param date1 first date
+     * @param date2 second date
+     * @return true if dates are the same
+     */
     public static boolean isSameDate(Date date1, Date date2) {
         return date1.getTime() == date2.getTime();
     }
 
+    /**
+     * Converts a {@link String} to a {@link Date}
+     *
+     * @param date string in format dd.MM.yyyy
+     * @return given date
+     */
     public static Date convertStringToDate(String date) {
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
         try {
-            Date date1 = sdf.parse(date);
-            return date1;
+            return sdf.parse(date);
         } catch (ParseException e) {
             e.printStackTrace();
         }
         return null;
     }
 
-    public static boolean isUpperCase(String text) {
+    /**
+     * Returns true if a string is uppercase
+     *
+     * @param text string to check
+     * @return true if a string is uppercase
+     */
+    static boolean isUpperCase(String text) {
         text.replace(" ", "");
         char[] chars = text.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            if (!Character.isUpperCase(chars[i])) {
+        for (char aChar : chars) {
+            if (!Character.isUpperCase(aChar)) {
                 return false;
             }
         }
         return true;
     }
 
+    /**
+     * Returns index of country in {@link MyWorldtripData}
+     *
+     * @param worldtripData data to find country in
+     * @param countryData   country to find
+     * @return index of country, if it doesn't exists it returns -1
+     */
     public static int getCountryIndex(MyWorldtripData worldtripData, CountryData countryData) {
         for (int i = 0; i < worldtripData.getCountries().size(); i++) {
             if (worldtripData.getCountries().get(i).getId() == countryData.getId())
@@ -55,8 +91,10 @@ public class Util {
     }
 
     /**
-     * @param context
-     * @return
+     * Returns if current device has a bigger screen then 7"
+     *
+     * @param context current context
+     * @return true if screen is bigger then 7"
      */
     public static boolean isTablet(Context context) {
         Display display;
@@ -72,6 +110,13 @@ public class Util {
         return (screenDiagonal >= 7.0);
     }
 
+    /**
+     * Returns resource value from the name of the string resource
+     *
+     * @param nameValue resource name
+     * @param context   current context
+     * @return sting of resource
+     */
     public static String getStringValueFromName(String nameValue, Context context) {
         int resourceId = context.getResources().getIdentifier(nameValue, "string", context.getPackageName());
         return context.getString(resourceId);

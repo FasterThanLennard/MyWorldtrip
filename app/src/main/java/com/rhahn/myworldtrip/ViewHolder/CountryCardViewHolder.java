@@ -13,10 +13,15 @@ import com.rhahn.myworldtrip.Enum.AttributeType;
 import com.rhahn.myworldtrip.R;
 import com.rhahn.myworldtrip.ViewBuilder.CountrycardViewBuilder;
 
+/**
+ * Viewholder for {@link RecyclerView} of CountryActivity
+ *
+ * @author Robin Hahn
+ */
 public class CountryCardViewHolder extends RecyclerView.ViewHolder {
-    TextView tvAttribute;
-    LinearLayout child;
-    CountrycardViewBuilder viewBuilder;
+    private TextView tvAttribute;
+    private LinearLayout child;
+    private CountrycardViewBuilder viewBuilder;
 
     public CountryCardViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -36,6 +41,11 @@ public class CountryCardViewHolder extends RecyclerView.ViewHolder {
         });
     }
 
+    /**
+     * Adds views for attributes
+     * @param attribute current attribute
+     * @param i index of attribute
+     */
     public void setAttribute(AttributeData attribute, int i) {
         AttributeType type;
         if (viewBuilder == null)
