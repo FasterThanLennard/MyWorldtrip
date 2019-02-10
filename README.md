@@ -1,6 +1,9 @@
 # MyWorldtrip
 
-MyWorldtrip is an android application to plan a worldtrip. 
+MyWorldtrip is an android application to plan your worldtrip. 
+
+[![Bild a_timeline24nknv.png](https://abload.de/img/a_timeline24nknv.png)](http://abload.de/image.php?img=a_timeline24nknv.png)
+[![Bild a_country05krq.png](https://abload.de/img/a_country05krq.png)](http://abload.de/image.php?img=a_country05krq.png)
 
 ## Using the App
 
@@ -31,4 +34,4 @@ Internet connection
 GNU General Public License v3.0
 
 ## Downloads
-
+* [Android Build](https://github.com/FasterThanLennard/MyWorldtrip/releases/tag/1.0)
