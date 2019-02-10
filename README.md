@@ -9,11 +9,6 @@ MyWorldtrip is an android application to plan your worldtrip.
 
 Download and install the apk on your android device and then you are ready to use.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-See deployment for notes on how to deploy the project on a live system.
-
 ## Prerequisites
 
 Android API level 21 or higher
