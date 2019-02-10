@@ -14,7 +14,13 @@ import com.rhahn.myworldtrip.R;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.Objects;
 
+/**
+ * Activity to show information about travel in summary
+ *
+ * @author Robin Hahn
+ */
 public class TraveloverviewActivity extends AppCompatActivity {
     MyWorldtripData myWorldtripData;
 
@@ -41,14 +47,16 @@ public class TraveloverviewActivity extends AppCompatActivity {
         tvVaccionationValue.setTextSize(this.getResources().getInteger(R.integer.textSizeOverview));
         myWorldtripData = Datapersistance.loadData(this);
 
-        String cost = String.valueOf(calculateTravelcosts())+ this.getString(R.string.euro);
+        int totalCost = calculateTravelcosts();
+        myWorldtripData.getSummaryData().setTotalCost(totalCost);
+        String cost = String.valueOf(totalCost)+ this.getString(R.string.euro);
         tvCostValue.setText(cost);
         String duration = String.valueOf(calculateTraveldays()) + " " + this.getString(R.string.days);
         tvDurationValue.setText(duration);
         String weather = calculateWeather();
         tvWeatherValue.setText(weather);
 
-        getSupportActionBar().setBackgroundDrawable(getDrawable(R.drawable.actionbar_background));
+        Objects.requireNonNull(getSupportActionBar()).setBackgroundDrawable(getDrawable(R.drawable.actionbar_background));
         getSupportActionBar().setTitle(getString(R.string.traveloverview));
     }
 
@@ -67,6 +75,7 @@ public class TraveloverviewActivity extends AppCompatActivity {
                 if (attribute.getName().equals(getResources().getResourceEntryName(R.string.travelcosts))) {
                     for (String attrName : attribute.getValues().keySet()) {
                         String value = attribute.getValues().get(attrName);
+                        assert value != null;
                         if (value.length() > 0) {
                             try {
                                 if (attrName.contains("daily")) {
@@ -86,6 +95,10 @@ public class TraveloverviewActivity extends AppCompatActivity {
         return travelcosts;
     }
 
+    /**
+     * Caculates min and max temperature
+     * @return min and max temperature as in String 5°C to 10°C
+     */
     private String calculateWeather() {
         String min;
         String max;
@@ -101,8 +114,10 @@ public class TraveloverviewActivity extends AppCompatActivity {
                 if (attribute.getName().equals(getResources().getResourceEntryName(R.string.weather))) {
                     min = attribute.getValues().get(this.getResources().getResourceEntryName(R.string.mintemp));
                     max = attribute.getValues().get(this.getResources().getResourceEntryName(R.string.maxtemp));
+                    assert min != null;
                     if(min.length() > 0)
                         tmpMin = Long.parseLong(min);
+                    assert max != null;
                     if(max.length() > 0)
                         tmpMax = Long.parseLong(max);
 
@@ -113,12 +128,14 @@ public class TraveloverviewActivity extends AppCompatActivity {
                 }
             }
         }
+        myWorldtripData.getSummaryData().setTempFrom(minTemp);
+        myWorldtripData.getSummaryData().setTempTo(maxTemp);
         return String.valueOf(minTemp) + this.getString(R.string.celcius) + " " + this.getString(R.string.to) + " " + String.valueOf(maxTemp) + this.getString(R.string.celcius);
     }
 
 
     /**
-     * Returns days of travel.
+     * Returns total days of travel.
      *
      * @return days of travel
      */
@@ -140,10 +157,10 @@ public class TraveloverviewActivity extends AppCompatActivity {
         if (countrySize > 0) {
             dateFrom = myWorldtripData.getCountries().get(0).getDateFrom();
             dateTo = myWorldtripData.getCountries().get(countrySize - 1).getDateTo();
+            myWorldtripData.getSummaryData().setStartDate(dateFrom);
+            myWorldtripData.getSummaryData().setEndDate(dateTo);
             return Util.getDaysBetweenTwoDates(dateFrom, dateTo);
         }
         return 0;
     }
-
-
 }

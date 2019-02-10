@@ -5,7 +5,6 @@ import android.support.annotation.NonNull;
 import android.widget.ImageView;
 
 import com.pixplicity.sharp.Sharp;
-import com.pixplicity.sharp.SharpDrawable;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -41,7 +40,7 @@ public class ImageRequest {
                 try {
                     Sharp.loadInputStream(stream).into(target);
                     stream.close();
-                } catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }

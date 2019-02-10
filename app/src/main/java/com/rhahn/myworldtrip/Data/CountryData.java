@@ -5,20 +5,33 @@ import android.graphics.drawable.Drawable;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Comparator;
 import java.util.Date;
 
+/**
+ * Dataobject for information about a country
+ *
+ * @author Robin Hahn
+ */
 public class CountryData implements Serializable {
 
     private static final long serialVersionUID = 8796242701389734373L;
+    //unique
     private long id;
+    //name of country
     private String name;
+    //english name of country
     private String engName;
+    //visit country from
     private Date dateFrom;
+    //visit country to
     private Date dateTo;
+    //image of flag
     private Drawable flagImg;
+    //alpha2code of yountry
     private String alpha2Code;
+    //url of flag (for rest api)
     private String flagURL;
+    //list of AttributeData
     private ArrayList<AttributeData> attributes;
 
     public CountryData(String name, Date dateFrom, Date dateTo, Drawable flagImg, ArrayList<AttributeData> attributes, String alpha2Code) {
@@ -98,7 +111,4 @@ public class CountryData implements Serializable {
     public void setAlpha2Code(String alpha2Code) {
         this.alpha2Code = alpha2Code;
     }
-
-
-
 }

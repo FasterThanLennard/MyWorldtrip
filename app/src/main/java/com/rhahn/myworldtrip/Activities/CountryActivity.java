@@ -1,29 +1,32 @@
 package com.rhahn.myworldtrip.Activities;
 
-import android.graphics.drawable.GradientDrawable;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
+
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+
 import android.view.KeyEvent;
 
 import com.rhahn.myworldtrip.Adapter.CountryAdapter;
 import com.rhahn.myworldtrip.Data.AttributeData;
 import com.rhahn.myworldtrip.Data.CountryData;
 import com.rhahn.myworldtrip.Data.MyWorldtripData;
-import com.rhahn.myworldtrip.Data.Testdata;
-import com.rhahn.myworldtrip.Data.TimelineData;
+
 import com.rhahn.myworldtrip.DataHandler.Datapersistance;
-import com.rhahn.myworldtrip.DataHandler.Datarequest;
+
 import com.rhahn.myworldtrip.DataHandler.Util;
 import com.rhahn.myworldtrip.R;
 
-import java.util.ArrayList;
+import java.util.Objects;
 
+
+/**
+ * Activity to show all Information about a country
+ *
+ * @author Robin Hahn
+ */
 public class CountryActivity extends AppCompatActivity {
     MyWorldtripData worldtripData;
     RecyclerView rvCountry;
@@ -36,29 +39,41 @@ public class CountryActivity extends AppCompatActivity {
         country = (CountryData) getIntent().getSerializableExtra("countryData");
 
         //set toolbar background and title
-        getSupportActionBar().setBackgroundDrawable(getDrawable(R.drawable.actionbar_background));
+        Objects.requireNonNull(getSupportActionBar()).setBackgroundDrawable(getDrawable(R.drawable.actionbar_background));
         getSupportActionBar().setTitle(country.getName());
 
+        //load current MyWorldtripData
         worldtripData = Datapersistance.loadData(this);
 
-        //recyclerview
+        //create recyclerview
         rvCountry = findViewById(R.id.rvCountry);
         rvCountry.setBackgroundColor(ContextCompat.getColor(this, R.color.lightGreen));
         rvCountry.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         rvCountry.setAdapter(new CountryAdapter(country));
     }
 
-    public void saveAttributeData(int attributeIndex, String key, String value){
+    /**
+     * Adds or updates {@link AttributeData} values
+     *
+     * @param attributeIndex Index of the attribute that changes
+     * @param key Key of the attributevalue
+     * @param value value of the attributevalue
+     */
+    public void saveAttributeData(int attributeIndex, String key, String value) {
         int countryIndex = Util.getCountryIndex(worldtripData, country);
         worldtripData.getCountries().get(countryIndex).getAttributes().get(attributeIndex).getValues().put(key, value);
         Datapersistance.saveData(worldtripData, this);
     }
 
+    /**
+     * Stops activity when going back to {@link TimelineActivity}
+     * @param keyCode keycode
+     * @param event event
+     * @return true when done
+     */
     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event)
-    {
-        if ((keyCode == KeyEvent.KEYCODE_BACK))
-        {
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if ((keyCode == KeyEvent.KEYCODE_BACK)) {
             finish();
         }
         return super.onKeyDown(keyCode, event);

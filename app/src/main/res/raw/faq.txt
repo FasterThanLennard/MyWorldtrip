@@ -1,0 +1,36 @@
+1.) Wozu dient die App?
+Die App soll dir und vielen anderen helfen, eine Weltreise übersichtlich zu planen.
+
+2.) Werden persönliche Daten über mich gespeichert?
+Du bist uns zwar wichtig, aber deine Privatsphäre ist uns wichtiger. Deshalb speichern wir keine privaten Daten von dir.
+
+3.) Wie kann ich die Länder hinzufügen?
+Wenn du auf der Startseite bist, befindet sich ein Plus Symbol rechts unten in der Ecke. Mit dem Plus Symbol fügst du ein Land dazu.
+
+4.) Wie kann ich ein Land löschen?
+Du kannst jedes Land zu jeder Zeit löschen. Wann immer du willst. Tippe das Land an und "schiebe" es nach Rechts oder Links.
+
+5.) Kann ich ein Land wieder herstellen wenn ich es gelöscht habe?
+Ja, man kann ein Land wiederherstellen. Rechts oben in der Taskliste auf der Startseite findest du drei Punkte untereinander. Tippe da drauf und klicke auf "wiederherstellen"
+
+6.) Wie kann ich eine neue Reise anlegen?
+Du kannst eine neue Reise anlegen, indem du auf der Starseite, auf die Menüpunkte klickst (drei Punkte recht oben ) und dann auf "Neue Reise" tippst.
+Beachte aber das du immer nur eine Weltreise führen kannst. Falls du eine neue Reise eintragen willst, wird die frühere Weltreise komplett gelöscht.
+
+7.) Muss ich dafür Geld bezahlen?wur
+Nein, du musst kein Geld dafür bezahlen. Die App ist komplett kostenlos.
+
+8.) Ist die App auch in anderen Sprachen verfügbar?
+Ja, die App ist in Deutsch und in Englisch verfügbar.
+
+9.) Gibt es Werbung in der App?
+Nein, es gibt keine offentsichtliche oder versteckte Werbung in dieser App.
+
+10.) Gibt es eine Gesamtübersicht der Weltreise?
+Es gibt eine Gesamtübersicht. Du findest sie unter dem Weltsymbol auf der Startseite der App. Klicke einfach auf die Weltkugel.
+
+11.) Darf ich die App weiter entwickeln ?
+Die App steht unter GPL 3 Lizenz und darf weiter Entwickkelt werden. Falls du irgendwelche Verbesserungsvorschläge hast, können wie diese auch gerne in die App einbauen.
+
+12.) Gibt es einen Support?
+Zurzeit ist noch kein Support verfügbar.

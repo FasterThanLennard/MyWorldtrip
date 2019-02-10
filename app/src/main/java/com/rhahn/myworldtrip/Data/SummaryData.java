@@ -4,33 +4,27 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.HashMap;
 
+/**
+ * dataobject for travel summary information
+ *
+ * @author Robin Hahn
+ */
 public class SummaryData implements Serializable {
     private static final long serialVersionUID = 3671194077897790143L;
-    HashMap<String, Boolean> vaccinations = new HashMap<>();
-    Date startDate;
-    Date endDate;
-    int totalCost;
-    float tempFrom;
-    float tempTo;
+    //list of vaccinations and boolean for checkvalues
+    private HashMap<String, Boolean> vaccinations = new HashMap<>();
+    //start date of trip
+    private Date startDate;
+    //end date of trip
+    private Date endDate;
+    //total cost of trip
+    private int totalCost;
+    //min temp of trip
+    private float tempFrom;
+    //max temp of trip
+    private float tempTo;
 
     public SummaryData(){}
-
-    public SummaryData(HashMap<String, Boolean> vaccinations, Date startDate, Date endDate, int totalCost, float tempFrom, float tempTo) {
-        this.vaccinations = vaccinations;
-        this.startDate = startDate;
-        this.endDate = endDate;
-        this.totalCost = totalCost;
-        this.tempFrom = tempFrom;
-        this.tempTo = tempTo;
-    }
-
-    public HashMap<String, Boolean> getVaccinations() {
-        return vaccinations;
-    }
-
-    public void setVaccinations(HashMap<String, Boolean> vaccinations) {
-        this.vaccinations = vaccinations;
-    }
 
     public Date getStartDate() {
         return startDate;
@@ -70,5 +64,13 @@ public class SummaryData implements Serializable {
 
     public void setTempTo(float tempTo) {
         this.tempTo = tempTo;
+    }
+
+    public HashMap<String, Boolean> getVaccinations() {
+        return vaccinations;
+    }
+
+    public void setVaccinations(HashMap<String, Boolean> vaccinations) {
+        this.vaccinations = vaccinations;
     }
 }
