@@ -1,6 +1,5 @@
 package com.rhahn.myworldtrip.Activities;
 
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,8 +12,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
-import android.util.DisplayMetrics;
-import android.view.Display;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -34,7 +32,6 @@ import com.rhahn.myworldtrip.DataHandler.Datapersistance;
 import com.rhahn.myworldtrip.DataHandler.Util;
 import com.rhahn.myworldtrip.R;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.Collections;
@@ -42,6 +39,11 @@ import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.Stack;
 
+/**
+ * Main Activity represents a timeline and all other activities accessible from here.
+ *
+ * @author Robin Hahn
+ */
 public class TimelineActivity extends AppCompatActivity {
     RecyclerView rvTimeline;
     RecyclerView rvCountry;
@@ -69,6 +71,7 @@ public class TimelineActivity extends AppCompatActivity {
         imageView = findViewById(R.id.ivFlag);
         isTablet = Util.isTablet(this);
 
+        //checks if current device is a tablet
         if (isTablet) {
             rvCountry = findViewById(R.id.rvCountry);
             tbCountry = findViewById(R.id.toolbar_country);
@@ -92,6 +95,7 @@ public class TimelineActivity extends AppCompatActivity {
 
         timelineAdapter = new TimelineDataAdapter(myWorldtripData.getCountries());
 
+        //get data for a new country
         newCountryData = isCountryAdded(myWorldtripData);
         if (newCountryData != null) {
             String url = "https://restcountries.eu/rest/v2/alpha/" + newCountryData.getAlpha2Code();
@@ -114,13 +118,13 @@ public class TimelineActivity extends AppCompatActivity {
 
                     } catch (Exception e) {
                         e.printStackTrace();
-                        //TODO Error
+
                     }
                 }
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    //TODO Error Handling
+                    error.printStackTrace();
                 }
             });
 
@@ -128,6 +132,7 @@ public class TimelineActivity extends AppCompatActivity {
             DataRequestQueue.getInstance().add(stringRequest);
         }
 
+        //on click open AddCountryActivity
         fabChooseCountry = findViewById(R.id.fabAddCountry);
         final MyWorldtripData finalWorldtripData = myWorldtripData;
         fabChooseCountry.setOnClickListener(new View.OnClickListener() {
@@ -139,12 +144,14 @@ public class TimelineActivity extends AppCompatActivity {
             }
         });
 
+        //set timelinedata
         if (myWorldtripData.getCountries() != null && myWorldtripData.getCountries().size() > 0) {
             rvTimeline = findViewById(R.id.rvTimeline);
             rvTimeline.getRecycledViewPool().setMaxRecycledViews(1, 0);
             rvTimeline.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
             rvTimeline.setAdapter(timelineAdapter);
 
+            //delete country on swipe to a side
             new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
                 @Override
                 public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder viewHolder1) {
@@ -168,6 +175,12 @@ public class TimelineActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Returns Country if its added but no attributes are set
+     *
+     * @param myWorldtripData Complete Worldtripdata
+     * @return Country with new attributes
+     */
     private CountryData isCountryAdded(MyWorldtripData myWorldtripData) {
         for (CountryData country : myWorldtripData.getCountries()) {
             if (country.getAttributes().size() == 0)
@@ -185,10 +198,12 @@ public class TimelineActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            //change to TraveloverviewActivity
             case R.id.traveloverview:
                 Intent intent = new Intent(this, TraveloverviewActivity.class);
                 startActivity(intent);
                 return true;
+            //create a new worldtrip override old data
             case R.id.newTrip:
                 DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
                     @Override
@@ -212,14 +227,17 @@ public class TimelineActivity extends AppCompatActivity {
                 builder.setMessage(this.getString(R.string.areUsureAllDeleted)).setPositiveButton(this.getString(R.string.yes), dialogClickListener)
                         .setNegativeButton(this.getString(R.string.no), dialogClickListener).show();
                 return true;
+            //change to LicenseActivity
             case R.id.license:
                 Intent intentLicense = new Intent(TimelineActivity.this, LicenseActivity.class);
                 startActivity(intentLicense);
                 return true;
+            //change to FAQActivity
             case R.id.faq:
                 Intent intentFaq = new Intent(TimelineActivity.this, FAQActivity.class);
                 startActivity(intentFaq);
                 return true;
+            // restores deletes country to MyWorldtripData
             case R.id.restore:
                 if (!restoreCountry.empty()) {
                     //add last deletes country
@@ -247,17 +265,35 @@ public class TimelineActivity extends AppCompatActivity {
         this.getIntent().addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
     }
 
+    /**
+     * Sets currentSelected country for tablet compatibility
+     *
+     * @param currentSelected Country currently selected
+     */
     public void setCurrentSelected(CountryData currentSelected) {
         this.currentSelected = currentSelected;
     }
 
+    /**
+     * Adds or updates attribute values
+     *
+     * @param attributeIndex Index of the attribute that changes
+     * @param key            Key of the attributevalue
+     * @param value          value of the attributevalue
+     */
     public void saveAttributeData(int attributeIndex, String key, String value) {
         int countryIndex = Util.getCountryIndex(myWorldtripData, currentSelected);
         myWorldtripData.getCountries().get(countryIndex).getAttributes().get(attributeIndex).getValues().put(key, value);
         Datapersistance.saveData(myWorldtripData, this);
     }
 
+    /**
+     * Set Weatherdata to a country. It's doing a request to openweathermap
+     *
+     * @param countryData country to set weatherdata
+     */
     private void setWeatherData(final CountryData countryData) {
+        //do request
         String city = countryData.getAttributes().get(1).getValues().get(this.getResources().getResourceEntryName(R.string.capital));
         String url = "http://api.openweathermap.org/data/2.5/weather?appid=9c6eded2603820a827316b3c6b1bd42a&units=metric&q=" + city + "," + countryData.getAlpha2Code();
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
@@ -284,6 +320,7 @@ public class TimelineActivity extends AppCompatActivity {
                             break;
                         }
                     }
+                    //save data
                     Datapersistance.saveData(data, TimelineActivity.this);
                 } catch (Exception e) {
                     e.printStackTrace();

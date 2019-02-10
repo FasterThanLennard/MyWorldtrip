@@ -4,4 +4,5 @@
     <integer name="textSizeHeader">20</integer>
     <integer name="textSizeElement">15</integer>
     <integer name="textSizeOverview">20</integer>
+    <integer name="textSizeFaq">15</integer>
 </resources>

@@ -3,10 +3,17 @@ package com.rhahn.myworldtrip.Data;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+/**
+ * Main dataobject for all information.
+ *
+ * @author Robin Hahn
+ */
 public class MyWorldtripData implements Serializable {
     private static final long serialVersionUID = 8274991317524100610L;
-    ArrayList<CountryData> countries;
-    SummaryData summaryData;
+    //list of all countries
+    private ArrayList<CountryData> countries;
+    //summaryData
+    private SummaryData summaryData;
 
     public MyWorldtripData(){
         this.countries = new ArrayList<>();
@@ -21,15 +28,7 @@ public class MyWorldtripData implements Serializable {
         return countries;
     }
 
-    public void setCountries(ArrayList<CountryData> countries) {
-        this.countries = countries;
-    }
-
     public SummaryData getSummaryData() {
         return summaryData;
-    }
-
-    public void setSummaryData(SummaryData summaryData) {
-        this.summaryData = summaryData;
     }
 }
