@@ -36,7 +36,7 @@ public class ImageRequest {
             }
 
             @Override
-            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+            public void onResponse(@NonNull Call call, @NonNull Response response) {
                 InputStream stream = response.body().byteStream();
                 try {
                     Sharp.loadInputStream(stream).into(target);

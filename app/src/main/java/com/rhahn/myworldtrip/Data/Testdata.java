@@ -21,8 +21,8 @@ public class Testdata {
         Calendar to = Calendar.getInstance();
 
         for (int i = 0; i < NumberOfCountries; i++) {
-            from.set(2019 + (int) i/12 , i%12, 1);
-            to.set(2019 + (int) i/12, i%12, 20);
+            from.set(2019 + i /12 , i%12, 1);
+            to.set(2019 + i /12, i%12, 20);
             countries.add(new CountryData("Country " + i, from.getTime(), to.getTime(), null, getAttributes(), "e"));
         }
         return countries;

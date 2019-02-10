@@ -22,6 +22,7 @@ public class CountryCardViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
         viewBuilder = new CountrycardViewBuilder(itemView.getContext());
         tvAttribute = itemView.findViewById(R.id.tvAttributeName);
+        tvAttribute.setTextSize(itemView.getResources().getInteger(R.integer.textSizeHeader));
         child = itemView.findViewById(R.id.llChildcard);
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override

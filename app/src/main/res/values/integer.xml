@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="textSizeTimline">20</integer>
+    <integer name="textSizeHeader">20</integer>
+    <integer name="textSizeElement">15</integer>
+    <integer name="textSizeOverview">20</integer>
+</resources>

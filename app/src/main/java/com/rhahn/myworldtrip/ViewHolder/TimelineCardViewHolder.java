@@ -93,7 +93,7 @@ public class TimelineCardViewHolder extends RecyclerView.ViewHolder {
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
         String travelDate = sdf.format(countryData.getDateFrom()) + " - " + sdf.format(countryData.getDateTo());
         traveldate.setText(travelDate);
-        countryname.setTextSize(20);
+        countryname.setTextSize(context.getResources().getInteger(R.integer.textSizeTimline));
 
         flag.setMaxHeight(50);
         flag.setMaxWidth(50);

@@ -22,15 +22,15 @@
     <string name="population">Einwohnerzahl</string>
     <string name="capital">Hauptstadt</string>
     <string name="generalinformation">Allgemeine Informationen</string>
-    <string name="mintemp">Min. Temperatur</string>
-    <string name="maxtemp">Max. Temperatur</string>
+    <string name="mintemp">Min. Temperatur in °C</string>
+    <string name="maxtemp">Max. Temperatur in °C</string>
     <string name="raindays">Regentage</string>
     <string name="weather">Wetter</string>
     <string name="vaccinations">Impfungen</string>
     <string name="attractions">Sehenwürdigkeiten</string>
     <string name="travelcosts">Reisekosten</string>
     <string name="flightcost">Flugkosten</string>
-    <string name="nightcost">Tägliche Übernachtungskosten</string>
+    <string name="dailyNightcost">Tägliche Übernachtungskosten</string>
     <string name="dailycost">Tägliche Kosten</string>
     <string name="notes">Notizen</string>
     <string name="traveloverview">Reiseübersicht</string>
@@ -47,4 +47,18 @@
     <string name="lincenseInformation">Lizenzinformationen</string>
     <string name="flag">Flagge</string>
     <string name="timeline">Timeline</string>
+    <string name="totalcost">Gesamtkosten</string>
+    <string name="duration">Dauer</string>
+    <string name="weathersituation">Wetterlage</string>
+    <string name="humidity">Luftfeutigkeit in %</string>
+    <string name="source">Quelle</string>
+    <string name="windspeed">Windgeschwindigkeit in km/h</string>
+    <string name="celcius">°C</string>
+    <string name="kmh">km/h</string>
+    <string name="percent">%</string>
+    <string name="noInformation">Keine Informationen gefunden.</string>
+    <string name="days">Tage</string>
+    <string name="euro">€</string>
+
+
 </resources>

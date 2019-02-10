@@ -13,18 +13,10 @@ import com.rhahn.myworldtrip.ViewHolder.CountryCardViewHolder;
 import java.util.ArrayList;
 
 public class CountryAdapter extends RecyclerView.Adapter {
-    CountryData country;
-    ArrayList<Integer> isAdded = new ArrayList<>();
+    private CountryData country;
+    private ArrayList<Integer> isAdded = new ArrayList<>();
 
     public CountryAdapter(CountryData country) {
-        this.country = country;
-    }
-
-    public CountryData getCountry() {
-        return country;
-    }
-
-    public void setCountry(CountryData country) {
         this.country = country;
     }
 
@@ -32,7 +24,6 @@ public class CountryAdapter extends RecyclerView.Adapter {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View itemView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.countrycard_layout, viewGroup, false) ;
-
         return new CountryCardViewHolder(itemView);
     }
 

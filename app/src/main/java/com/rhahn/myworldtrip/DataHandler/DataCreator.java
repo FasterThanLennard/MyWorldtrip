@@ -2,6 +2,10 @@ package com.rhahn.myworldtrip.DataHandler;
 
 import android.content.Context;
 
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
 import com.rhahn.myworldtrip.Data.AttributeData;
 import com.rhahn.myworldtrip.Data.CountryData;
 import com.rhahn.myworldtrip.Enum.AttributeType;
@@ -80,17 +84,40 @@ public class DataCreator {
     }
 
     private AttributeData createVisum(JSONObject country, Context context) {
+        String visa = Datarequest.getFileAsString(context, R.raw.visa);
+        String result = context.getString(R.string.noInformation);
+        String searchFor = "Tourist: ";
+        try {
+            String germanName = country.getJSONObject("translations").getString("de");
+            String tmp;
+            int start = visa.indexOf(germanName);
+            if(start >= 0) {
+                tmp = visa.substring(start);
+                String lines[] = tmp.split("\n");
+                for (String line : lines) {
+                    start = line.indexOf(searchFor);
+                    if (start >= 0) {
+                        result = line.substring(start + searchFor.length());
+                        break;
+                    }
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
-        values.put(context.getResources().getResourceEntryName(R.string.duty), "-");
-        values.put(context.getResources().getResourceEntryName(R.string.neededFrom), "-");
-        return new AttributeData(AttributeType.TEXTLIST, context.getResources().getResourceEntryName(R.string.visum), values, false);
+        String source = "https://visumcentrale.de/visa-quick-check";
+        values.put(result, "-");
+        values.put(context.getString(R.string.source) + ": " + source, "-");
+        return new AttributeData(AttributeType.TEXTVIEW, context.getResources().getResourceEntryName(R.string.visum), values, false);
     }
 
-    private AttributeData createWeather(JSONObject country, Context context) {
+    private AttributeData createWeather(JSONObject country, final Context context) {
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
-        values.put(context.getResources().getResourceEntryName(R.string.mintemp), "-");
-        values.put(context.getResources().getResourceEntryName(R.string.maxtemp), "-");
-        values.put(context.getResources().getResourceEntryName(R.string.raindays), "-");
+        values.put(context.getResources().getResourceEntryName(R.string.mintemp), "");
+        values.put(context.getResources().getResourceEntryName(R.string.maxtemp), "");
+        values.put(context.getResources().getResourceEntryName(R.string.humidity), "");
         return new AttributeData(AttributeType.TEXTLIST,context.getResources().getResourceEntryName(R.string.weather), values, false);
     }
 
@@ -110,9 +137,9 @@ public class DataCreator {
                         break;
                     }
                 }
-                tmpString = tmpString.substring(0, end -1);
+                if(end >= 1)
+                    tmpString = tmpString.substring(0, end -1);
             }
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -137,7 +164,7 @@ public class DataCreator {
     private AttributeData createTravelcosts(Context context) {
         LinkedHashMap<String, String> values = new LinkedHashMap<>();
         values.put(context.getResources().getResourceEntryName(R.string.flightcost), "");
-        values.put(context.getResources().getResourceEntryName(R.string.nightcost), "");
+        values.put(context.getResources().getResourceEntryName(R.string.dailyNightcost), "");
         values.put(context.getResources().getResourceEntryName(R.string.dailycost), "");
         return new AttributeData(AttributeType.NUMBERINPUT, context.getResources().getResourceEntryName(R.string.travelcosts), values, true);
     }

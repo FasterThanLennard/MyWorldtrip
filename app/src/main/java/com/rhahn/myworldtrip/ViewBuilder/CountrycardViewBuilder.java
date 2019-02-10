@@ -60,6 +60,7 @@ public class CountrycardViewBuilder {
         editText.setInputType(InputType.TYPE_TEXT_FLAG_MULTI_LINE);
         editText.setSingleLine(false);
         editText.setLines(10);
+        editText.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
         editText.setText(attributes.get(AttributeType.MULTILINE.toString()));
         editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
@@ -83,6 +84,7 @@ public class CountrycardViewBuilder {
     private void buildTextview(LinearLayout linearLayout, String attributeName, int offset) {
         TextView textView;
         textView = new TextView(linearLayout.getContext());
+        textView.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
         String tvText = linearLayout.getContext().getString(R.string.item) + " " + attributeName;
         textView.setText(tvText);
         textView.setGravity(Gravity.START);
@@ -96,6 +98,8 @@ public class CountrycardViewBuilder {
         horizontalLayout = new LinearLayout(linearLayout.getContext());
         tvFirstValue = new TextView(linearLayout.getContext());
         tvSecondValue = new TextView(linearLayout.getContext());
+        tvFirstValue.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
+        tvSecondValue.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
 
         horizontalLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         horizontalLayout.setOrientation(LinearLayout.HORIZONTAL);
@@ -123,6 +127,8 @@ public class CountrycardViewBuilder {
         horizontalLayout = new LinearLayout(linearLayout.getContext());
         tvFirstValue = new TextView(linearLayout.getContext());
         etSecondValue = new EditText(linearLayout.getContext());
+        tvFirstValue.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
+        etSecondValue.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
 
         horizontalLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         horizontalLayout.setOrientation(LinearLayout.HORIZONTAL);
@@ -130,7 +136,9 @@ public class CountrycardViewBuilder {
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT, 1.0f);
 
         tvFirstValue.setGravity(Gravity.START);
-        tvFirstValue.setText(Util.getStringValueFromName(attributeName, context));
+        String entryName = getValueName(attributeName);
+        tvFirstValue.setText(entryName);
+
         tvFirstValue.setLayoutParams(layoutParams);
         if (attributes.get(attributeName) != null) {
             etSecondValue.setText(attributes.get(attributeName));
@@ -139,20 +147,21 @@ public class CountrycardViewBuilder {
         etSecondValue.setLayoutParams(layoutParams);
         etSecondValue.setInputType(InputType.TYPE_CLASS_NUMBER);
         etSecondValue.setImeOptions(EditorInfo.IME_ACTION_DONE);
-        etSecondValue.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+        etSecondValue.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if (!hasFocus) {
+            public boolean onEditorAction(TextView textView, int j, KeyEvent keyEvent) {
+                if (j == EditorInfo.IME_ACTION_DONE) {
                     int i = Integer.parseInt(tvHiddenID.getText().toString());
                     if (isTablet) {
-                        TimelineActivity timelineActivity = (TimelineActivity) v.getContext();
-                        timelineActivity.saveAttributeData(i, tvFirstValue.getText().toString(), etSecondValue.getText().toString());
+                        TimelineActivity timelineActivity = (TimelineActivity) textView.getContext();
+                        timelineActivity.saveAttributeData(i, getEntryName(tvFirstValue.getText().toString()), etSecondValue.getText().toString());
                     } else {
-                        CountryActivity countryActivity = (CountryActivity) v.getContext();
-                        countryActivity.saveAttributeData(i, tvFirstValue.getText().toString(), etSecondValue.getText().toString());
+                        CountryActivity countryActivity = (CountryActivity) textView.getContext();
+                        countryActivity.saveAttributeData(i, getEntryName(tvFirstValue.getText().toString()), etSecondValue.getText().toString());
                     }
-                    Toast.makeText(v.getContext().getApplicationContext(), v.getContext().getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(textView.getContext().getApplicationContext(), textView.getContext().getString(R.string.datasaved), Toast.LENGTH_SHORT).show();
                 }
+                return false;
             }
         });
         horizontalLayout.addView(tvFirstValue);
@@ -171,6 +180,7 @@ public class CountrycardViewBuilder {
 
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT, 1.0f);
         editText = new EditText(linearLayout.getContext());
+        editText.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
         editText.setInputType(InputType.TYPE_CLASS_TEXT);
         editText.setHint(R.string.newEntry);
         editText.setGravity(Gravity.START);
@@ -202,6 +212,7 @@ public class CountrycardViewBuilder {
 
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT, 1.0f);
         editText = new EditText(linearLayout.getContext());
+        editText.setTextSize(context.getResources().getInteger(R.integer.textSizeElement));
         editText.setInputType(InputType.TYPE_CLASS_TEXT);
         editText.setHint(R.string.newEntry);
         editText.setGravity(Gravity.START);
@@ -230,10 +241,30 @@ public class CountrycardViewBuilder {
                 return false;
             }
         });
+
         horizontalLayout.addView(editText);
         linearLayout.addView(horizontalLayout);
     }
 
+    private String getValueName(String value){
+        if(value.equals(context.getResources().getResourceEntryName(R.string.dailycost)))
+            return context.getString(R.string.dailycost);
+        if(value.equals( context.getResources().getResourceEntryName(R.string.dailyNightcost)))
+            return context.getString(R.string.dailyNightcost);
+        if(value.equals( context.getResources().getResourceEntryName(R.string.flightcost)))
+            return context.getString(R.string.flightcost);
+        return value;
+    }
+
+    private String getEntryName(String value){
+        if(value.equals(context.getString(R.string.dailycost)))
+            return context.getResources().getResourceEntryName(R.string.dailycost);
+        if(value.equals(context.getString(R.string.dailyNightcost)))
+            return context.getResources().getResourceEntryName(R.string.dailyNightcost);
+        if(value.equals( context.getString(R.string.flightcost)))
+            return context.getResources().getResourceEntryName(R.string.flightcost);
+        return value;
+    }
 
     private TextView createHiddenTextView(Context context, String value) {
         TextView tvHiddenID = new TextView(context);

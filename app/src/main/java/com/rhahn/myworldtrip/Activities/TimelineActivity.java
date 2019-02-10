@@ -34,10 +34,12 @@ import com.rhahn.myworldtrip.DataHandler.Datapersistance;
 import com.rhahn.myworldtrip.DataHandler.Util;
 import com.rhahn.myworldtrip.R;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.LinkedHashMap;
 import java.util.Stack;
 
 public class TimelineActivity extends AppCompatActivity {
@@ -67,7 +69,7 @@ public class TimelineActivity extends AppCompatActivity {
         imageView = findViewById(R.id.ivFlag);
         isTablet = Util.isTablet(this);
 
-        if(isTablet) {
+        if (isTablet) {
             rvCountry = findViewById(R.id.rvCountry);
             tbCountry = findViewById(R.id.toolbar_country);
             tbCountry.setBackgroundColor(ContextCompat.getColor(this, R.color.darkGreen));
@@ -100,6 +102,7 @@ public class TimelineActivity extends AppCompatActivity {
                         JSONObject newCountry = new JSONObject(response);
                         DataCreator dataCreator = new DataCreator();
                         newCountryData = dataCreator.createNewCountry(newCountry, newCountryData, TimelineActivity.this);
+                        setWeatherData(newCountryData);
                         timelineAdapter.notifyDataSetChanged();
 
                         for (int i = 0; i < myWorldtripData.getCountries().size(); i++) {
@@ -248,10 +251,52 @@ public class TimelineActivity extends AppCompatActivity {
         this.currentSelected = currentSelected;
     }
 
-    public void saveAttributeData(int attributeIndex, String key, String value){
+    public void saveAttributeData(int attributeIndex, String key, String value) {
         int countryIndex = Util.getCountryIndex(myWorldtripData, currentSelected);
         myWorldtripData.getCountries().get(countryIndex).getAttributes().get(attributeIndex).getValues().put(key, value);
         Datapersistance.saveData(myWorldtripData, this);
+    }
+
+    private void setWeatherData(final CountryData countryData) {
+        String city = countryData.getAttributes().get(1).getValues().get(this.getResources().getResourceEntryName(R.string.capital));
+        String url = "http://api.openweathermap.org/data/2.5/weather?appid=9c6eded2603820a827316b3c6b1bd42a&units=metric&q=" + city + "," + countryData.getAlpha2Code();
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONObject weather = new JSONObject(response);
+                    JSONObject main = weather.getJSONObject("main");
+                    JSONObject wind = weather.getJSONObject("wind");
+                    LinkedHashMap<String, String> values = new LinkedHashMap<>();
+                    String tempmin = String.valueOf(main.getLong("temp_min"));
+                    String tempmax = String.valueOf(main.getLong("temp_max"));
+                    String huminity = String.valueOf(main.getLong("humidity"));
+                    String windspeed = String.valueOf(wind.getLong("speed"));
+                    values.put(TimelineActivity.this.getResources().getResourceEntryName(R.string.mintemp), tempmin);
+                    values.put(TimelineActivity.this.getResources().getResourceEntryName(R.string.maxtemp), tempmax);
+                    values.put(TimelineActivity.this.getResources().getResourceEntryName(R.string.humidity), huminity);
+                    values.put(TimelineActivity.this.getResources().getResourceEntryName(R.string.windspeed), windspeed);
+                    values.put(TimelineActivity.this.getResources().getResourceEntryName(R.string.source), "https://openweathermap.org/api");
+                    MyWorldtripData data = Datapersistance.loadData(TimelineActivity.this);
+                    for (int i = 0; i < data.getCountries().size(); i++) {
+                        if (data.getCountries().get(i).getId() == countryData.getId()) {
+                            data.getCountries().get(i).getAttributes().get(3).setValues(values);
+                            break;
+                        }
+                    }
+                    Datapersistance.saveData(data, TimelineActivity.this);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                error.printStackTrace();
+            }
+        });
+
+        DataRequestQueue.getInstance().add(stringRequest);
     }
 }
 

@@ -12,19 +12,16 @@ import com.rhahn.myworldtrip.Data.MyWorldtripData;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 public class Util {
 
     public static boolean compareDates(Date dateFrom, Date dateTo) {
-        if (dateFrom.getTime() < dateTo.getTime())
-            return true;
-        return false;
+        return dateFrom.getTime() < dateTo.getTime();
     }
 
     public static boolean isSameDate(Date date1, Date date2) {
-        if (date1.getTime() == date2.getTime())
-            return true;
-        return false;
+        return date1.getTime() == date2.getTime();
     }
 
     public static Date convertStringToDate(String date) {
@@ -58,7 +55,6 @@ public class Util {
     }
 
     /**
-     *
      * @param context
      * @return
      */
@@ -77,7 +73,29 @@ public class Util {
     }
 
     public static String getStringValueFromName(String nameValue, Context context) {
-        int resourceId = context.getResources().getIdentifier(nameValue ,"string",context.getPackageName());
+        int resourceId = context.getResources().getIdentifier(nameValue, "string", context.getPackageName());
         return context.getString(resourceId);
+    }
+
+    /**
+     * Returns the number of days between two dates.
+     * The order doesn't matter
+     *
+     * @param date1 date1
+     * @param date2 date2
+     * @return days between two dates
+     */
+    public static int getDaysBetweenTwoDates(Date date1, Date date2) {
+        int days;
+
+        //if null return -1
+        if (date1 == null || date2 == null)
+            return -1;
+
+        //make sure the days are positiv
+        long diffInMillies = Math.abs(date1.getTime() - date2.getTime());
+        days = (int) TimeUnit.DAYS.convert(diffInMillies, TimeUnit.MILLISECONDS);
+
+        return days;
     }
 }
